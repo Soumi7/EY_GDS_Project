@@ -3,7 +3,7 @@ import PyPDF2 as pdf
 
 
 csv_data=[]
-directory="/home/soumi/dataset_intent"
+directory="/home/soumi/data_to_preprocess"
 for filename in os.listdir(directory):
     if filename.endswith(".pdf"): 
         file = open(os.path.join(directory, filename),'rb')
