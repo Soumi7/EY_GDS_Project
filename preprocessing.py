@@ -21,8 +21,9 @@ for filename in os.listdir(directory):
         for page_number in range(number_of_pages):   # use xrange in Py2
             page = read_pdf.getPage(page_number)
             page_content = page.extractText()
-            tokens = [token.text for token in page_content]
-            #sentence_tokens = [sent for sent in page_content.sents]
+            doc = nlp(page_content)
+            tokens = [token.text for token in doc]
+            #sentence_tokens = [sent for sent in doc.sents]
             pdf_content+="".join(tokens)
            
     csv_data.append({"PDF_Name":filename,'text':pdf_content,'intent':""})
