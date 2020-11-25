@@ -21,13 +21,17 @@ for filename in os.listdir(directory):
         reader = PyPDF2.PdfFileReader(file1)
         print(reader.documentInfo)
         num_of_pages = reader.numPages
-        text = data_func.convert_pdf_to_string(file1)
+        writer = PyPDF2.PdfFileWriter()
+        for page in range(0,num_of_pages):
+            writer.addPage(reader.getPage(page))
+        output_filename = 'data_to_preprocess/table_of_contents.pdf'
+        with open(output_filename, 'wb') as output:
+            writer.write(output)
+        text = data_func.convert_pdf_to_string('./data_to_preprocess/table_of_contents.pdf')
+        #text = data_func.convert_pdf_to_string(file1)
         text = text.replace('.','')
         text = text.replace('\x0c','')
         table_of_contents_raw = text.split('\n')
-        for item in table_of_contents_raw:
-            title, pagenum = \
-                data_func.split_to_title_and_pagenum(item)
         print(table_of_contents_raw)
         print(text)
         sentences_list=text.split('.')
@@ -35,20 +39,9 @@ for filename in os.listdir(directory):
         for sentence in sentences_list:
             csv_data.append({"PDF_Name":filename,'sentence_num': s,'text':sentence,'intent':filename[::-1]})
             s+=1
-        '''
-        for page_number in range(number_of_pages):   # use xrange in Py2
-            page = read_pdf.getPage(page_number)
-            page_content = page.extractText()
-            doc = nlp(page_content)
-            doc = doc.replace('.','')
-            doc = doc.replace('\x0c','')
-            tokens = [token.text for token in doc]
-            sentence_tokens = [sent for sent in doc.sents]
-            #pdf_content+="".join(tokens)
-            page_content+="".join(tokens)
-           
-            csv_data.append({"PDF_Name":filename,'page_text': page_content,'intent':""})
-        '''
+        
         
 df = pd.DataFrame(csv_data)
 df.to_csv('text_intent.csv') 
+
+#ref : https://towardsdatascience.com/pdf-text-extraction-in-python-5b6ab9e92dd
