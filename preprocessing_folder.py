@@ -19,6 +19,7 @@ csv_data=[]
 file_names=[]
 sentence =[]
 label=[]
+intent=[]
 directory="/home/soumi/EY_GDS_Project/EY_DATA/"
 
 for filename in os.listdir(directory):
@@ -41,7 +42,8 @@ for filename in os.listdir(directory):
         file_names.append(filename)
         sentence.append(line)
         label.append(0)
+        intent.append(filename.split(".")[0])
         
 #df = pd.DataFrame(csv_data)
-df = pd.DataFrame(list(zip(file_names, sentence , label)) , columns=["Filename", "Sentence" , "Label"])
+df = pd.DataFrame(list(zip(file_names, sentence , label, intent)) , columns=["Filename", "Sentence" , "Label", "Intent"])
 df.to_csv('text_intent.csv',encoding='utf-8-sig') 
