@@ -12,7 +12,7 @@ import csv
 import nltk
 nltk.download('punkt')
 output_string = StringIO()
-with open('/home/soumi/EY_GDS_Project/data_to_preprocess/CaseStudy_SDC.pdf', 'rb') as in_file:
+with open('/home/lohith/Desktop/EY Hackathon/EY_GDS_Project/data_to_preprocess/CaseStudy_SDC.pdf', 'rb') as in_file:
     parser = PDFParser(in_file)
     doc = PDFDocument(parser)
     rsrcmgr = PDFResourceManager()
@@ -21,8 +21,8 @@ with open('/home/soumi/EY_GDS_Project/data_to_preprocess/CaseStudy_SDC.pdf', 'rb
     for page in PDFPage.create_pages(doc):
         interpreter.process_page(page)
 
-print(type(output_string.getvalue()))
-print(type(output_string))
+# print(type(output_string.getvalue()))
+# print(type(output_string))
 text=output_string.getvalue()
 data = sent_tokenize(text)
 
@@ -38,4 +38,4 @@ for line in data:
 
 df = pd.DataFrame(list(zip(sentence , label)) , columns=["Sentence" , "Label"])
 
-df.to_csv("csvfile.csv",encoding='utf-8-sig')
+df.to_csv("file.csv",encoding='utf-8-sig', index=False)
