@@ -15,19 +15,33 @@ from nltk.tokenize import sent_tokenize
 import pandas as pd
 import csv
 import nltk
-nltk.download('punkt')
+# nltk.download('punkt')
 
 csv_data=[]
-file_names=[]
+file_loc=[]
 sentence =[]
 label=[]
 intent=[]
-directory="/home/lohith/Desktop/EY Hackathon/EY_GDS_Project/EY_DATA/"
+file_names=[]
+file_name=[]
+# directory="/home/lohith/Desktop/EY Hackathon/EY_GDS_Project/EY_DATA/"
+dir="/home/lohith/Desktop/EY Hackathon/EY_GDS_Project/data_to_preprocess"
+def list_files(dir):
+    r = []
+    for root, dirs, files in os.walk(dir):
+        for name in files:
+            r.append(os.path.join(root, name))
+    return r
+for i in list_files(dir):
+    file_names.append(i)
 
-for filename in os.listdir(directory):
+# print(file_location)
+
+for filename in file_names:
+    # print(filename)
     if filename.endswith('.pdf'):
         output_string = StringIO()
-        with open(os.path.join(directory, filename), 'rb') as in_file:
+        with open(filename, 'rb') as in_file:
             parser = PDFParser(in_file)
             doc = PDFDocument(parser)
             rsrcmgr = PDFResourceManager()
@@ -35,18 +49,19 @@ for filename in os.listdir(directory):
             interpreter = PDFPageInterpreter(rsrcmgr, device)
             for page in PDFPage.create_pages(doc):
                 interpreter.process_page(page)
-        print(type(output_string.getvalue()))
-        print(type(output_string))
+        # print(type(output_string.getvalue()))
+        # print(type(output_string))
         text=output_string.getvalue()
         data = sent_tokenize(text)
         for line in data:
             res=re.sub('\s+',' ',line)
             line=str(res)
-            file_names.append(filename)
+            file_loc.append(filename)
             sentence.append(line)
             label.append(0)
-            intent.append(filename.split(".")[0])
-    if filename.endswith(".csv"):
+            intent.append(filename.split("/")[7])
+            file_name.append(filename.split("/")[8])
 
-        df = pd.DataFrame(list(zip(file_names, sentence , label, intent)) , columns=["Filename", "Sentence" , "Label", "Intent"])
-        df.to_csv('text_intent.csv',encoding='utf-8-sig') 
+    if filename.endswith(".pdf"):
+        df = pd.DataFrame(list(zip(file_loc, file_name, sentence , label, intent)) , columns=["File Location", "File Name", "Sentence" , "Label", "Intent"])
+        df.to_csv('folders.csv',encoding='utf-8-sig', index=False) 
