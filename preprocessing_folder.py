@@ -14,13 +14,15 @@ from pdfminer.pdfparser import PDFParser
 from nltk.tokenize import sent_tokenize
 import pandas as pd
 import csv
+import nltk
+nltk.download('punkt')
 
 csv_data=[]
 file_names=[]
 sentence =[]
 label=[]
 intent=[]
-directory="/home/soumi/EY_GDS_Project/EY_DATA/"
+directory="/home/lohith/Desktop/EY Hackathon/EY_GDS_Project/EY_DATA/"
 
 for filename in os.listdir(directory):
     if filename.endswith('.pdf'):
@@ -44,9 +46,7 @@ for filename in os.listdir(directory):
             sentence.append(line)
             label.append(0)
             intent.append(filename.split(".")[0])
-    if file.endswith(".csv"):
-        
-        
-#df = pd.DataFrame(csv_data)
-df = pd.DataFrame(list(zip(file_names, sentence , label, intent)) , columns=["Filename", "Sentence" , "Label", "Intent"])
-df.to_csv('text_intent.csv',encoding='utf-8-sig') 
+    if filename.endswith(".csv"):
+
+        df = pd.DataFrame(list(zip(file_names, sentence , label, intent)) , columns=["Filename", "Sentence" , "Label", "Intent"])
+        df.to_csv('text_intent.csv',encoding='utf-8-sig') 
