@@ -65,8 +65,9 @@ bert_model_name="uncased_L-12_H-768_A-12"
 bert_ckpt_dir = os.path.join("model/", bert_model_name)
 bert_ckpt_file = os.path.join(bert_ckpt_dir, "bert_model.ckpt")
 bert_config_file = os.path.join(bert_ckpt_dir, "bert_config.json")
+max_seq_len=128
 
-model = create_model(data.max_seq_len, bert_ckpt_file)
+model = create_model(max_seq_len, bert_ckpt_file)
 
 csv_data=[]
 file_loc=[]
