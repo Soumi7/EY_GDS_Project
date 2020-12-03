@@ -80,7 +80,11 @@ df.to_csv('folders.csv',encoding='utf-8-sig', index=False)
 
 df_compressed =  df[["Sentence","Intent"]]
 
+df_compressed =  df_compressed.rename({'Sentence':'sentence', "Intent":"intent"}, axis=1) 
+
 df_compressed = shuffle(df_compressed)
+
+
 
 size =  len(df_compressed)
 

@@ -1,438 +1,438 @@
-﻿Sentence,Intent
-Cryogenic propellants are difficult to store for long periods of time since they need to be stored at very low temperatures,Case Study
-Note While the typical reason for linewrapping is to avoid overflowing the column limit even code that would in fact fit within the column limit may be linewrapped at the authors discretion,Coding Guidelines
-___ Taking vacations to space will be too costly even in the future,Case Study
-In the United States the Challenger space shuttle exploded in 1986 after 73 seconds into its flight killing 7 crew members,Case Study
-73 Where Javadoc is used At the minimum Javadoc is present for every public class and every public or protected member of such a class with a few exceptions noted below,Coding Guidelines
-Examples return    while condition  method   return new MyClass  Override public void method  if condition  try  something  catch ProblemException e  recover   else if otherCondition  somethingElse  else  lastThing    A few exceptions for enum classes are given in Section 481 Enum classes,Coding Guidelines
-Digital product subscriptions that provide unlimited viewing or usage rights are included in Subscription services Includes product sales where our customers physically select items in a store,Financial Reports
-In recent weeks we also waived one month of fees for longterm storage Strategic Account Services account management and the Launchpad program as well as two weeks of inventory storage fees,Financial Reports
-24 J Foust Weighing the Risks of Human Spaceflight The Space Review 21Jul2003,Case Study
-This rotating motion of the weight will cause the centrifugal force to be directed radially outward from the center which will keep the string taut,Case Study
-The main advantage of is that they have high performance and can be moderated stopped or even restarted,Case Study
-This categorization lets you generate reports so you can monitor the frequency of various failures,Coding Guidelines
-Second the amount of water that can be transported into space is limited due to its weight43,Case Study
-4842 Fallthrough commented Within a switch block each statement group either terminates abruptly with a break continue return or thrown exception or is marked with a comment to indicate that execution will or might continue into the next statement group,Coding Guidelines
-In 2005 the 100 kgCosmos 1 was launched from the Volna rocket from a Russian submarine in the Barents Sea,Case Study
-52 Rules by identifier type 521 Package names Package names are all lowercase with consecutive words simply concatenated together no underscores,Coding Guidelines
-27 Space Tourism Britannica Online Encyclopedia,Case Study
+﻿sentence,intent
+This rule is never interpreted as requiring or forbidding additional space at the start or end of a line it addresses only interior space,Coding Guidelines
+The 20ton lifter will be able to carry as much as 13 tons of payload and have 900 cubic meters of space,Case Study
 If there are both static and nonstatic imports a single blank line separates the two blocks,Coding Guidelines
-With 2018 sales of 64 billion the company has 29000 employees and a presence in more than 70 countries,Case Study
-B,Case Study
-Maintain production quality for test code Maintain the same quality for production and test code,Coding Guidelines
-Note Some words are ambiguously hyphenated in the English language for example nonempty and nonempty are both correct so the method names checkNonempty and checkNonEmpty are likewise both correct,Coding Guidelines
-Q How adventurous are you,Case Study
-Accessed 30Aug 2013,Case Study
-If a dunning letter is required due to late payment of a bill the bots send one and then notify a human manager about the delinquent account,Case Study
-San Diego County  Health and Human Services AgencyAn Automation Anywhere Case Study,Case Study
-The exception is trycatch statements,Coding Guidelines
-Many other portable medical devices in ambulances were also originally made to meet the needs of transportability of equipment in space63,Case Study
-950 1190 700879 Net cash provided by operating activities Less purchases of property and equipment  Free cash flow Free cash flow We define free cash flow as net cash provided by operating activities less capital expenditures,Financial Reports
-With catalyst hightest peroxide high concentrations of hydrogen peroxide decomposes into oxygen and superheated steam producing a specific impulse of about 150 s Nitrous oxide has been used as both an oxidizer and as a monopropellant,Case Study
-This was accomplished by having the individual breathe pure oxygen and have the nitrogen leave their blood through their lungs,Case Study
-Likewise NASA has examined its own organizational integrity so that it would not continue to rely primarily on outside contracts for important skill and experience based functions due to a huge loss of their own workforce,Case Study
-The most important forces in play here are the Earths gravity and the counterweight platforms centrifugal that would be acting in opposite directions,Case Study
-Q1 2020 Update Highlights Financial Summary Operational Summary Vehicle Capacity Core Technology Other Highlights Outlook Photos  Charts Financial Statements Additional Information 03 04 06 07 08 09 10 11 19 24,Financial Reports
-Javatests style rules Follow test method naming conventions and use an underscore to separate whats being tested from the specific case being tested,Coding Guidelines
- Set port,Coding Guidelines
-After  or the closing parenthesis  of a cast 7,Coding Guidelines
-This guidance reflects our estimates as of April 30 2020 regarding the impact of the COVID19 pandemic on our operations including those discussed above and is highly dependent on numerous factors that we may not be able to predict or control including the duration and spread of the pandemic actions taken by governments businesses and individuals in response to the pandemic the impact of the pandemic on global and regional economies and economic activity workforce staffing and productivity and our significant and continuing spending on employee safety measures our ability to continue operations in affected areas and consumer demand and consumer spending patterns as well as the effects on suppliers creditors and thirdparty sellers all of which are uncertain,Financial Reports
-During the presurveys participants were asked to rate their interest in space travel for 6 items on a scale of 1 to 5 with 1 being Not at all  and 5 being Very much In addition 14 trueandfalse questions were asked to assess their background knowledge of space travel as well as their attitudes toward it,Case Study
-Limit line length Each line of text in your code should be at most 100 characters long,Coding Guidelines
-22 Space Station Britannica Online Encyclopedia,Case Study
-In the current state of technology every launch of a space shuttle costs between 500 and 700 million the cost of launching a pound of mass into a lowearth orbit is about 1000048,Case Study
-Automation Anywheres builtin SMART Automation Technology designed with adaptability in mind would make this doable,Case Study
- IDEs can follow the style,Coding Guidelines
-It is as stable as unsymmetrical dimethyl hydrazine and gives better performance,Case Study
-This would speed up the decision making which in turn would translate to a seamless experience for the agent and the end user,Case Study
-For me this is a dream come true,Case Study
-Infosys BPM has been providing Finance and Accounting services to Signify since 2007,Case Study
-Monomethyl hydrazine with nitric acid oxidizer was used in the Space Shuttle orbiter as the orbital maneuvering system and reaction control system51,Case Study
-In these cases you may catch generic Exception or Throwable and handle the error appropriately,Coding Guidelines
-References 1 D Alba Soular Virgin Galactic Takes Step Toward Flight License Alamogordo Daily News 27 Aug2013,Case Study
-If two are different please indicate both ________________________ What is your highest level of education completed,Case Study
-Using Earths Magnetism as Energy Resource Throughout history no one has used the Earths magnetism as the source for propulsion,Case Study
-The astronaut readings are posted online available at any time for children to see,Case Study
-Treat acronyms as words Treat acronyms and abbreviations as words in naming variables methods and classes to make names more readable Good Bad XmlHttpRequest XMLHTTPRequest getCustomerId getCustomerID class Html String url long id class HTML String URL long ID As both the JDK and the Android code bases are inconsistent around acronyms its virtually impossible to be consistent with the surrounding code,Coding Guidelines
-Conclusion Space travel has had a relatively short history beginning from the 1960s,Case Study
-The cable would provide the lifter with something to climb along the cable,Case Study
-Using a superconductor one can demonstrate at critical temperatures and magnetic fields can lock the object in space in midair giving the appearance of levitation,Case Study
-Such blank lines are used as needed to create logical groupings of fields,Coding Guidelines
-Authorastronomer Jeffrey Bennetts latest childrens book I Humanity will join his doginspace Max series already at the orbiting lab,Case Study
-Growing populace of space debris NASA 2009 With the accuracy of a fourday forecast NASA does track with radar pieces of debris and meteoroids larger than 10cm to identify impending collision danger and then makes an evasive maneuver to move space vehicles out of harms way36,Case Study
-Accessed 26Aug2013,Case Study
-On May 22nd 2012 the first unmanned commercially built spacecraft Dragon was developed and launched by Space X an American private space transportation company,Case Study
-That is while the examples are in Google Style they may not illustrate the only stylish way to represent the code,Case Study
-The term comment always refers to implementation comments,Case Study
-Private companies One of the significant changes in the US that gave way to the flurry of development in commercial human space travel is the privatization of NASAs Space Shuttle Program SSP34,Case Study
-46 M Hanlon Exoskeletons Wearable Robots Online,Case Study
-To be more exact during NASAs 54 shuttle missions space debris and meteoroids struck the windows 1634 times and necessitated 92 window replacements the radiator was hit 317 times creating holes in the radiators external body 53 times36,Case Study
-The propellant is held together by a polymeric binder usually polyurethane or polybutadienes which is also consumed as fuel,Case Study
-On November 20th 1998 the first module of ISS Zarya also known as the Functional Cargo Block FGB was launched,Case Study
-THE FUTURE After experiencing automation success Signify is planning on further using Infosys expertise to roll out Automation Anywhere RPA to more of its finance and master data management processes in the near future to help automate their processes endtoend,Case Study
-We compensate for these limitations by providing specific information regarding the GAAP amounts excluded from these nonGAAP financial measures,Financial Reports
- Common shares outstanding plus shares underlying stockbased awards totaled 513 million on March 31 2020 compared with 507 million one year ago,Financial Reports
-524 Constant names Constant names use CONSTANT_CASE all uppercase letters with each word separated from the next by a single underscore,Coding Guidelines
-private enum Suit  CLUBS HEARTS SPADES DIAMONDS  Since enum classes are classes all other rules for formatting classes apply,Coding Guidelines
-Medium solid propellant motors such as the Payload Assist Module PAM and the Inertial Upper Stage IUS are used as boosters needed to place satellites into geosynchronous orbit or on planetary trajectories,Case Study
-Additional IDE configuration When using IntelliJ to develop Presto we recommend starting with all of the default inspections with some modifications,Coding Guidelines
-These complexities resulted in hundreds of business rules making process automation imperative,Case Study
-233 NonASCII characters For the remaining nonASCII characters either the actual Unicode character eg,Case Study
-Although the space shuttles had been created as an attempt at this their main tanks still had to be thrown away at each flight and the reusable parts required 9 months for a team of 10000 people to refurbish them  totaling to a cost of billion dollars per flight11,Case Study
-5 For more information on our nonGAAP financial measures and a reconciliation of GAAP to nonGAAP measures please see the Reconciliation of GAAP to NonGAAP Results table in this press release,Financial Reports
-The books will ride along with 7000 pounds of space station cargo,Case Study
-Thus whereas there is energy loss when using other conductors usually in the form of heat superconductors allow electricity to flow freely without any barriers at the quantum level,Case Study
-This is the model that is being developed by the Ad Astra Rocket Company and it is thought that this technology could take astronauts to Mars in approximately 39 days,Case Study
- Fire TVs content catalog continues to grow internationally with new apps including Disney available on Fire TV and Fire Tablet devices in the UK France Germany Italy and Spain,Financial Reports
-In most cases you can use good exception handling instead,Coding Guidelines
-However theres no single correct recipe for how to do it different classes may order their contents in different ways,Coding Guidelines
-Q What is your primary language,Case Study
+It adds a tank of high pressure gas such as helium that is unreactive inert and light to the propulsion system,Case Study
+_T_ The heart pump that doctors use for heart surgery was originally designed as rocket fuel pump,Case Study
+Ergometers were built for astronauts to measure their muscles work output they now aid in stimulating the muscles of the paralyzed,Case Study
+Accessed 30Aug2013,Case Study
+However in order to make this aspiration into reality bringing such topics closer to the general public may be an important aspect of the process,Case Study
+___ Taking vacations to space will be too costly even in the future,Case Study
+Given the depth of the challenges so many are facing its a huge privilege to be able to help at this time said Sundar Pichai Chief Executive Officer of Alphabet and Google,Financial Reports
+CONDENSED CONSOLIDATED STATEMENTS OF CASH FLOWS FACEBOOK INC In millions Unaudited Supplemental cash flow data Cash paid during the period for Income taxes net Noncash investing and financing activities 7 Three Months Ended March 31 2017 8032 7857 5058 1271  3787 2018  11966 536   11430  11795 535   11260  49  42   50  43     7860 2812  5048  Reconciliation of GAAP to NonGAAP Results In millions except percentages Unaudited GAAP revenue Foreign exchange effect on 2018 revenue using 2017 rates Revenue excluding foreign exchange effect GAAP revenue yearoveryear change  Revenue excluding foreign exchange effect yearoveryear change  GAAP advertising revenue Foreign exchange effect on 2018 advertising revenue using 2017 rates Advertising revenue excluding foreign exchange effect GAAP advertising revenue yearoveryear change  Advertising revenue excluding foreign exchange effect yearoveryear change  Net cash provided by operating activities Purchases of property and equipment Free cash flow 8,Financial Reports
+However this launch also ended in failure after two minutes of takeoff with the solar sail lost in the ocean,Case Study
+Although a statistical test of mean differences could not be performed due to the small population descriptive results suggest that the participants knowledge about space exploration did change in the expected direction through the talk,Case Study
 Online,Case Study
-12 Guide notes Example code in this document is nonnormative,Case Study
-This Interactive Qualifying Project is a step towards achieving her dream in making space travel a reality for everyone,Case Study
-NonGAAP Financial Measures To supplement our condensed consolidated financial statements which are prepared and presented in accordance with generally accepted accounting principles in the United States GAAP we use the following nonGAAP financial measures revenue excluding foreign exchange effect advertising revenue excluding foreign exchange effect and free cash flow,Financial Reports
-Homogeneous propellants are relatively weak,Case Study
-___ In the future we will be able to travel to Mars,Case Study
-Although its performance and density is high similar to that of nitric acid and it is far less toxic and corrosive but it is unstable with a poor freezing point,Case Study
-Otherwise it evaporates and loses a large quantity of oxidizer on the process of loading,Case Study
- Having a full file system on a file system thats accessible to or on behalf of thirdparty apps shouldnt be logged at a level higher than INFORMATIVE,Coding Guidelines
-However it is not possible to determine the ultimate impact on our operations for the second quarter or whether other currently unanticipated direct or indirect consequences of the pandemic are reasonably likely to materially affect our operations,Financial Reports
-23 Special characters 231 Whitespace characters Aside from the line terminator sequence the ASCII horizontal space character 0x20 is the only whitespace character that appears anywhere in a source file,Case Study
-Results and Discussion Demographics,Case Study
-Online,Case Study
-Based on the forms the agent was using for each case certain combinations of ﬁelds needed to be veriﬁed,Case Study
-Sellers are considered active when they have received an order from a customer during the preceding twelvemonth period,Financial Reports
-In March we increased pay for hourly employees by 2hour in the US and Canada 2hour in the UK and 2hour in many European countries,Financial Reports
-Amazon Detective automatically collects log data from a customers resources and uses machine learning statistical analysis and graph theory to build interactive visualizations that help customers analyze investigate and quickly identify the root cause of potential security issues or suspicious activities,Financial Reports
-The beneﬁts of automating these systems A noninvasive solution reduced costs and risk,Case Study
-SOLUTION Infosys with its deep domain and technical expertise identified various automation opportunities within Signify and partnered with Automation Anywhere to automate Signifys finance functions,Case Study
-Ethyl alcohol ethanol was used as a fuel source for the German V2 missile and the USA Redstone but became obsolete after more efficient fuels were developed,Case Study
-Available httpspaceflightnasagovshuttlereferencefactsheetsfoodhtml,Case Study
-For example there is no line break after the brace if it is followed by else or a comma,Coding Guidelines
-Note that this only applies when there are no block tags such as return,Coding Guidelines
-Contribution to Science and Technology In addition to the benefits that technological innovations in rocket science brought to the world research done in outer space has also contributed much to society,Case Study
-History of Space Travel  9 1,Case Study
-Many other laypersons followed Titos footsteps Mark Shuttleworth a South African technology entrepreneur in 2002 Gregory Olsen an American entrepreneurengineerscientist in 2005 Anousheh Ansari an Iranian American businesswoman in 2006 and several other wealthy persons27,Case Study
-12082  14 114 12210  7104 85 94 7283  6 Three Months Ended March 31 2018    736  450  141  2017 664 26   Net change in accounts payable accrued expenses and other current liabilities and other liabilities related to property and equipment additions Change in unsettled repurchases of Class A common stock Priorperiod information has been retrospectively adjusted due to our adoption of ASU No,Financial Reports
-Part A Demographic Questions What is your age,Case Study
-They also powered the upper stages of the Saturn V and Saturn 1B rockets and the Centaur which is the first liquid oxygen and liquid hydrogen rocket in the United States51,Case Study
-A lifter most likely powered by electrical motors receiving electricity from photovoltaic cells galvanized by freeelectron lasers will ascend and descend along the cable carrying different payloads as well as humans7 17,Case Study
-Online,Case Study
-The live webcast of Facebooks earnings conference call can be accessed at investorfbcom along with the earnings press release financial tables and slide presentation,Financial Reports
-After achieving quick success Signify automated many of their frontend finance processes and have reaped significant benefits including lower costs faster processes improved quality and higher job satisfaction,Case Study
-San Diego County  Health and Human Services AgencyAn Automation Anywhere Case Study,Case Study
-Categorize errors when throwing exceptions,Coding Guidelines
- We have procured 100 million face masks and are requiring that they be worn by all associates drivers and support staff in our operations network,Financial Reports
- Weve implemented additional safety measures within our Whole Foods Market stores including providing plexiglass barriers between cashiers and customers at checkout rolling out enhanced cleanliness and sanitation protocols and enforcing social distancing guidelines,Financial Reports
-Following the end of the quarter we entered into an agreement to invest in Jio Platforms Limited a subsidiary of Reliance Industries Limited for approximately 57 billion and we paid the 50 billion settlement amount due under our modified consent order with the FTC which took effect in April 2020,Financial Reports
-Aerozine 50 was used as a propellant with nitric acid oxidizer for the Titan and the second stage of the Delta II rocket used propellant,Case Study
- Weve provided 10 million in funding to provide relief to more than 800 small businesses in Seattle and the Puget Sound through cash grants and free rent as part of our Neighborhood Small Business Relief Fund,Financial Reports
- import fooBar Makes it obvious what classes are used and the code is more readable for maintainers,Coding Guidelines
-Foo aFoo   FooaStaticMethod  good aFooaStaticMethod  bad somethingThatYieldsAFooaStaticMethod  very bad 64 Finalizers not used It is extremely rare to override Objectfinalize,Coding Guidelines
-AWS Customers  References to AWS customers mean unique AWS customer accounts which are unique customer account IDs that are eligible to use AWS services,Financial Reports
-On September 29th 2011 Chinas first space station Tiangong1 was successfully launched,Case Study
-37 J Amos Urgent need to remove space debris BBC 25Apr2013,Case Study
-Define fields in standard places Define fields either at the top of the file or immediately before the methods that use them,Coding Guidelines
-Chinas own space station Tiangong was finally launched into space in 201122,Case Study
-___ The first time humans landed on the moon was 40 years ago and we have not gone back since,Case Study
-Accessed 26Aug2013,Case Study
-What we are doing for customers  Were prioritizing the stocking and delivery of essential items to ensure the fastest delivery of household staples medical supplies and other critical products,Financial Reports
-Here multiple spaces are allowed but not required,Coding Guidelines
-Everybody can relate to having books read to them she said by phone from British Columbia where she now lives,Case Study
-This change may leave the formerlypleasing formatting mangled and that is allowed,Coding Guidelines
-A big area of research done in space has to do with microgravity,Case Study
-Any line break may be preceded by arbitrary whitespace followed by an implementation comment,Coding Guidelines
-Vacuum perturbations can be controlled by squeezed light technology which generates states of squeezed vacuum and can control control energy density through the coordination geometry,Case Study
-Online,Case Study
-Instead local variables are declared close to the point they are first used within reason to minimize their scope,Coding Guidelines
-In addition please note that the date of this press release is April 29 2020 and any forwardlooking statements contained herein are based on assumptions that we believe to be reasonable as of this date,Financial Reports
-842 of participants got it right,Case Study
-The hotter the plasma gets the faster will the gas particles move and provide that much more thrust for the VASIMR to travel reaching speeds that are a hundred times more than chemical rockets,Case Study
-Measures  54 VI,Case Study
-Instead we expect to spend the entirety of that 4 billion and perhaps a bit more on COVIDrelated expenses getting products to customers and keeping employees safe,Financial Reports
-4843 The default case is present Each switch statement includes a default statement group even if it contains no code,Coding Guidelines
-An integration challengeDigitizing supporting documents and using CalWIN had introduced a challenge How to get the two programs to communicate with each other automatically,Case Study
-She was trying to get NASA on board,Case Study
-Although the state of vacuum has always been thought as a threat from the ancient times it is no longer a threat as many innovations have resulted from past and present microgravity research64,Case Study
-Drew did his 2011 demo as a favor for Tribe former education director at Space Center Houston the tourist side of Johnson Space Center,Case Study
-For 8 days Tito enjoyed a unique vacation in orbit and spent seven days on board the ISS27 28,Case Study
-One way PGE is planning to increase efficiency of solar cells is to use parabolic reflectors that will concentrate sunlight onto the cells,Case Study
-B,Case Study
+This was deemed bad,Coding Guidelines
+Other propellants were also used as liquid fuels,Case Study
+Q1 2020 supplemental information in millions except for number of employees unaudited Revenues Traffic Acquisition Costs TAC and number of employees The following table summarizes our revenues total TAC and number of employees,Financial Reports
+As previously mentioned specific impulse also determines rocket performance by controlling internal thrust production through pressure and heat,Case Study
+On the other hand HTPB propellant is stronger in stronger and more flexible to use than PBAN,Case Study
+From its first flight in 1981 space shuttles have flown many different missions,Case Study
+Since then several other wealthy businessmen purchased their rides into space,Case Study
 This became the basis for the US governments issuance of its Orbital Debris Mitigation Standard Practices 2 years later40,Case Study
-Although still limited to suborbital flights within the confines of the Earths gravity it is predicted that the growth of this industry sector will not only profit companies but also provide the impetus for further progress in human space flight beyond the moon Mars and the Milky Way galaxy,Case Study
-In 1967 for example Vladimir Komarov of Soviet Union died in a crash of Soyuz 1 due to a series of technical issues including parachute failure after reentry into the Earths atmosphere,Case Study
-6 Programming Practices 61 Override always used A method is marked with the Override annotation whenever it is legal,Coding Guidelines
-With raw passion the legendary Wright brothers went through 4 years of mechanical aeronautical experimentations before sustaining their first powered and controlled flights in North Carolina in 19033 4,Case Study
-We exclude the following items from our nonGAAP financial measures Foreign exchange effect on revenue,Financial Reports
-Sevenyearold Roraigh Curran of Chorley in northwestern England won a contest by London based Lost My Name books,Case Study
-First Quarter 2020 Financial Highlights Three Months Ended March 31 2019 1 2020 YearoverYear  Change  In millions except percentages and per share amounts Revenue Advertising Other Total revenue Total costs and expenses Income from operations Operating margin Provision for income taxes Effective tax rate Net income Diluted earnings per share EPS _________________________ 1 Includes a 30 billion legal expense accrued in the first quarter of 2019 related to our settlement with the US Federal Trade Commission FTC,Financial Reports
-It solved an ancillary issue as well agents routinely opened multiple forms on the screen at once  and only the most recently opened was visible,Case Study
-After looking at scalability security and the departments that were mature enough to manage their own bots Husch Blackwell began automating processes specific to its law practice,Case Study
-Accessed 30Aug2013,Case Study
-Yes No Not sure Do you have comments for Borim or suggestions for improving the talk,Case Study
-We purchased more than 1000 thermal cameras and 31000 thermometers which we are using to conduct mandatory daily temperature checks for employees and support staff throughout our operations sites and Whole Foods Market stores,Financial Reports
-Within each block the imported names appear in ASCII sort order,Coding Guidelines
-Available httpwwwspacecom701540yearsmoonlandinghardhtml,Case Study
-These forwardlooking statements are inherently difficult to predict,Financial Reports
-The bot then took the information and ran it against the firms client list to pull out more information such as the relationship manager assigned and when he or she last worked with the client,Case Study
-The shuttles even flew secret missions for the Departments of Defense and played crucial roles in constructing the ISS26,Case Study
-Onboard crafts that produce electricity from solar panels eg,Case Study
-Additional Javadoc content may also be present as explained in Section 734 Nonrequired Javadoc,Coding Guidelines
-At Christian Community CC 16 attended the talk but 12 completed both pre and post surveys,Case Study
-The conventional ways of propulsion are very inefficient in that the spacecrafts needs to carry the same weight of thrust materials as its own weight,Case Study
-Once operational the lifters could be climbing the space elevator nearly every day,Case Study
-President Eisenhower instituted the National Aeronautics and Space Administration NASA in 1958 to engage more fully in the goal to send human beings into space,Case Study
-Prior period amounts were not retrospectively adjusted,Financial Reports
-Accessed 30Aug2013,Case Study
-This is one possibility private enum Answer  YES  Override public String toString  return yes   NO MAYBE  An enum class with no methods and no documentation on its constants may optionally be formatted as if it were an array initializer see Section 4831 on array initializers,Coding Guidelines
-Where are we now,Case Study
-482 Variable declarations 4821 One variable per declaration Every variable declaration field or local declares only one variable declarations such as int a b are not used,Coding Guidelines
-8 C Moscowitz 40 Years After Moon Landing Why Is It So Hard to Go Back 20Jul2009,Case Study
-This way those setting up the automation could work with the application and automatically retrieve data without making changes to CalWIN itself,Case Study
-A English Spanish Portuguese Polish Russian Croatian Korean Chinese Japanese Arabic and Thai were used,Case Study
-One of the great ways to be protected from these extreme space conditions is to use well designed space suits,Case Study
-On the post survey participants also indicated general comments and suggestions for improvement for the speaker,Case Study
-As Komarovs death was the first to occur during space flight the tragic incident spurred the development of improvements in spaceship design23,Case Study
-CalWIN supported over 500 dierent forms,Case Study
- The golden rule of logging is that your logs may not unnecessarily push other logs out of the buffer just as others may not push out yours,Coding Guidelines
-Even if thrusters are attached to the cable to counteract any movement the simple logistics of attaching maintaining and refueling them as well as bypassing them during the elevator climb will pose serious complications,Case Study
-In same century first rockets  or rocce in Old Italian for a long thin tube  appeared in Europe as crude weapons for war,Case Study
-This possible movement is no light matter,Case Study
-John Mankins the manager for advanced concepts for NASA talked about one of the ideas from NASA about what to do with the space shuttles was to launch space habitats which is to get as many people to live and work in space,Case Study
-The singleline form may be substituted when the entirety of the Javadoc block including comment markers can fit on a single line,Coding Guidelines
-New frontiers new resources new technology i,Case Study
-The beneﬁts of automating these systems A noninvasive solution reduced costs and risk,Case Study
-Due to the advancements in technology these became feasible nowadays despite the fact that many have doubted only a decade ago65,Case Study
-ET today,Financial Reports
-11 Terminology notes In this document unless otherwise clarified class interface or annotation type interface,Case Study
-Online,Case Study
-The data is available free of charge and will support research vaccine development and new treatment options allowing organizations to share information and accelerate understanding of the virus,Financial Reports
-For more information visit amazoncomabout and follow AmazonNews,Financial Reports
-harder to handle must be kept in separate tanks and in very low temperatures of 300ºF16 17,Case Study
-Online,Case Study
-San Diego County chose Automation Anywhere to automate its extremely complex Health and Human Services processing and veriﬁcation functions,Case Study
-Online,Case Study
-215220 Feb 2013,Case Study
-Already more than 17 billion investments have occurred in private space flight industry by companies like Google and that is only half of what is being committed and planned for the next few years,Case Study
-The laser will beam 24 megawatts of energy to photovoltaic cells perhaps made of Gallium Arsenide GaAs attached to the lifter which will then convert that energy to electricity to be used by conventional niobiummagnet DC electric motors according to the ISR7 17 60,Case Study
-Log sparingly While logging is necessary it has a negative impact on performance and loses its usefulness if not kept reasonably terse,Coding Guidelines
-If you see old code that has a deprecated Javadoc tag add the Deprecated annotation,Coding Guidelines
-This guidance anticipates an unfavorable impact of approximately 70 basis points from foreign exchange rates,Financial Reports
-The indent level applies to both code and comments throughout the block,Coding Guidelines
-6 Grumman Lunar Module 19621972 GHN IEEE Global History Network 2012,Case Study
-Thus in 1961 in the midst of the Cold War the US created the Apollo program with the aim to reach the moon by the end of the decade,Case Study
-Any comment that communicates the idea of fallthrough is sufficient typically  fall through,Coding Guidelines
-Use standard Java annotations Annotations should precede other modifiers for the same language element,Coding Guidelines
-Section 481,Coding Guidelines
-Examples Prose form Correct Incorrect XML HTTP request new customer ID XmlHttpReques t XMLHTTPRequ est newCustomerId newCustomerI D inner stopwatch innerStopwatch innerStopWatch supports IPv6 on iOS,Coding Guidelines
-Excluding the 387 million unfavorable impact from yearoveryear changes in foreign exchange rates throughout the quarter net sales increased 27 compared with first quarter 2019,Financial Reports
-Investors are cautioned that there are material limitations associated with the use of nonGAAP financial measures as an analytical tool,Financial Reports
-Turbo pump although more complex is often preferred and used more often than the pressurized gas,Case Study
-Total revenues and hedging gains for the quarter ended December 31 2019 were 46075 million and 91 million respectively,Financial Reports
-Plasma Another new technology that has reached the test stage of development is the magneto plasma propulsion named VASIMR Variable Specific Impulse Magneto Plasma Rocket,Case Study
-C 1 a Problems Limitations and Possible Solutions Safety and Convenience Space Junk One of the major safety concerns for space travel perhaps surprisingly has to do with the space debris that we have created since the 1960s35,Case Study
-34 Class declaration 341 Exactly one toplevel class declaration Each toplevel class resides in a source file of its own,Coding Guidelines
-History of Human Space Travel  10 3,Case Study
-However Virgin Galactic is definitely not alone in its venture into space tourism as it is being seen as lucrative industry for the upcoming many decades2 12 13,Case Study
-It also will save us from the trouble when we happen to run out of fuel during intergalacticspace travel,Case Study
-429 of participants got it right,Case Study
-For example   TODO The thirdparty class comthirdusefulUtilityrotate needs generics SuppressWarningsgenericcast ListString blix  Utilityrotateblax When a SuppressWarnings annotation is required refactor the code to isolate the software elements where the annotation applies,Coding Guidelines
-It is expected that NanoSailD will stay in lowEarth orbit for 70  120 days depending on atmospheric conditions55,Case Study
-Online,Case Study
-On February 1st 2003 the US Space Shuttle Columbia exploded during reentry after completing 27 missions resulting in the deaths of all crew members aboard,Case Study
-This 30 minute presentation will include multimedia and lively discussions,Case Study
-We believe that this methodology can provide useful supplemental information to help investors better understand underlying trends in our business,Financial Reports
- Family daily active people DAP  DAP was 236 billion on average for March 2020 an increase of 12 yearoveryear,Financial Reports
-For example 3000000000L rather than 3000000000l,Coding Guidelines
-Try to avoid this,Coding Guidelines
-In addition please note that the date of this press release is April 25 2018 and any forwardlooking statements contained herein are based on assumptions that we believe to be reasonable as of this date,Financial Reports
-We exclude the following items from our nonGAAP financial measures Foreign exchange effect on revenue,Financial Reports
-But these arent normal circumstances,Financial Reports
-Despite its versatility and reusablity the space shuttle program has largely failed in reducing the costs of human space flight,Case Study
-Part B Scientific Knowledge or Experience _F_ Human space travel is only for trained astronauts and fictional characters in SciFi movies,Case Study
-463 Horizontal alignment never required Terminology Note Horizontal alignment is the practice of adding a variable number of additional spaces in your code with the goal of making certain tokens appear directly below certain other tokens on previous lines,Coding Guidelines
-632 of participants got it right,Case Study
-Accessed 30Aug2013,Case Study
-strands of magnetic field inside the superconductor come in discrete quantities and behave like quantum particles54,Case Study
-This launch mechanism has experienced several failures however,Case Study
-Exceptions 1,Coding Guidelines
-The price is significantly lower than the competitors in order to make commercial spaceflight more accessible to the public,Case Study
-Additionally BMW customers in the US and MINI customers in the US France Italy Spain and Austria can now access Alexa on select models,Financial Reports
-and  TODO Change this to use a flag instead of a constant,Coding Guidelines
-The Earths moon is the closest celestial object to us and it no longer appeared to be so out of reach in comparison to the vast universe7,Case Study
-Most formatters dont rewrap lines in   style comment blocks,Coding Guidelines
-___ Space exploration has been just a political show for big countries and has not brought any benefit to society,Case Study
-_T_ Several private companies have successfully built and sent powerful rockets into space,Case Study
-Your responses on the survey will be completely anonymous and private,Case Study
- What we are doing for communities  Using our network of Amazon Flex drivers were partnering with food banks across the US to donate delivery services of groceries to serve six million meals through the end of June,Financial Reports
-Globally Amazon has 86 renewable energy projects that have the capacity to generate over 2300 MW and deliver more than 63 million MWh of energy annually,Financial Reports
-Tip In the Unicode escape case and occasionally even when actual Unicode characters are used an explanatory comment can be very helpful,Coding Guidelines
-47 Space program cost estimates update Examinercom 19Mar2009,Case Study
-Small solid propellant motors are usually used to power the final stage of a launch rocket or attached to cargos to be lifted to higher orbits,Case Study
- Operating income decreased to 40 billion in the first quarter compared with operating income of 44 billion in first quarter 2019,Financial Reports
-VI,Case Study
-Such differential gain scores may be explained by cultural factors environmental factors CC had a better audiovisual system to support the delivery of talk or the number of participants in each group n 26 vs n16,Case Study
-Bring space travel closer to ordinary people as something that is relevant and feasible,Case Study
-Thus it is necessary to find some ways to store the energy to use in times and places where no sunlight is provided yet not one found the way to do this in a large scale,Case Study
-With the growing market for space tourism custom designed and versatile exoskeletons will be able to effectively meet the customers taste health conditions and preferences the suit should also be and customizable,Case Study
-Carbon nanotubes are microscopic structures that have cylindrical walls,Case Study
-For example sendMessage or stop,Coding Guidelines
-Dont refactor the logging call out into a method call if its going to cause the string building to take place outside of the if LOCAL_LOG block,Coding Guidelines
-Accessed 27Aug2013,Case Study
-In violent motions the cable could potentially whip into orbiting satellites and space junk and become unstable due to its lack of resistance against folding or bending61,Case Study
-17440 297 17737 11844 5893 14912 165 15077 11760 3317 17 80 18 1 78 33 959 16 102 101 4902 171 2429 085          9 1053 22 30 1 First Quarter 2020 Operational and Other Financial Highlights  Facebook daily active users DAUs  DAUs were 173 billion on average for March 2020 an increase of 11 yearoveryear,Financial Reports
-Worcester Polytechnic Institute Table of Contents III,Case Study
-Measures Participants with different backgrounds completed the pre and post surveys to indicate their view on space travel as well as any changes to their views after listening to the informative talk,Case Study
-Q What is your occupation,Case Study
-We translated revenue for the three months ended March 31 2020 using the prior years monthly exchange rates for our settlement or billing currencies other than the US dollar which we believe is a useful metric that facilitates comparison to our historical performance,Financial Reports
-Signify Accelerates Innovation and Drives FirstTimeRight Using RPA  Go be great,Case Study
-334 No static import for classes Static import is not used for static nested classes,Coding Guidelines
-A survey will be administered afterwards,Case Study
-Even a tiny hole or crack can cause air pressure to decrease sharply while leaking the mixture of air that is critical to survival41,Case Study
-We leverage our retail infrastructure to offer a wide selection of consumable and durable goods that includes media products available in both a physical and digital format such as books music videos games and software,Financial Reports
-667 of participants got it right,Case Study
-All rights reserved,Case Study
- University of Nebraska Press 2008,Case Study
-Impact of COVID19 on Outlook Our business has been impacted by the COVID19 pandemic and like all companies we are facing a period of unprecedented uncertainty in our business outlook,Financial Reports
-Results and Discussion  56 VII,Case Study
-As required by other sections of this document such as Section 3 Source file structure and Section 33 Import statements,Coding Guidelines
-_____ What is your approximate yearly income,Case Study
-However note that the stream implementation does not perform well so avoid using it in inner loops or otherwise performance sensitive sections,Coding Guidelines
-3 Webcast and Conference Call Information Facebook will host a conference call to discuss the results at 2 pm PT  5 pm,Financial Reports
-332 No linewrapping Import statements are not linewrapped,Coding Guidelines
-He discovered the concept of exhaust velocity which means that the greater the explosion of the fuel the greater the thrust velocity,Case Study
-For example these names are not Google Style name_ mName s_name and kName,Coding Guidelines
-Specifically the talk helped the public to feel that space travel will become more accessible and that they would be willing to travel into space,Case Study
-Except as noted below any line that would exceed this limit must be linewrapped as explained in Section 45 Linewrapping,Coding Guidelines
+THE FUTURE Husch Blackwell is in the process of adopting IQ Bot the only cognitive bot that incorporates vision skills to add structure to unstructured content with the ability to get more accurate over time,Case Study
+In 1998 a spacecraft called Deep Space 1 was sent with ionthrusters where ionized xenon gas was used as propellant,Case Study
  A quick and easy sidebyside comparison meant faster turnaround for veriﬁcation processes Immediate ROI and timecost savings Increased productivity and eciency Fewer human errors particularly in the veriﬁcation process,Case Study
-The term member of a class is used inclusively to mean a nested class field method or constructor that is all toplevel contents of a class except initializers and comments,Case Study
-Actual results may differ materially from the results predicted and reported results should not be considered as an indication of future performance,Financial Reports
-History of Rocketry  9 2,Case Study
-Available httpinventorsaboutcomodrstartinventionsaSolidPropellant_2htm,Case Study
-When there are multiple continuation lines indentation may be varied beyond 4 as desired,Coding Guidelines
-Such risk taking pioneering spirits though at times costly ultimately helped us to thrive and progress,Case Study
-It is used for many hybrid rocket designs and in highpowered rocketry,Case Study
-28 A Chaikin Today and Tomorrow in National Geographic Encyclopedia of Space Washington DC National Geographic 2005 pp,Case Study
- INFORMATIVE Use to note that something interesting happened that is when a situation is detected that is likely to have widespread impact though isnt necessarily an error,Coding Guidelines
-After the Soviet Union launched the first artificial satellite Sputnik into orbit in October 1957 Sputnik 2 soon followed a month later this time carrying the first animal into space,Case Study
-5 Naming 51 Rules common to all identifiers Identifiers use only ASCII letters and digits and in a small number of cases noted below underscores,Coding Guidelines
-333 Ordering and spacing Imports are ordered as follows 1,Coding Guidelines
-This demonstrated that gas is easier to manage than solid fuel as xenons noble gas properties made it very stable unreactive and efficient 45,Case Study
-To help with the administration of these programs the agency uses CalWIN a stateapproved program,Case Study
-Nevertheless when and if the necessary 100 GPa is reached by the advancement of technology the process of constructing the space elevator has been estimated to take up to 2 years from that time7,Case Study
-44 Column limit 100 Java code has a column limit of 100 characters,Coding Guidelines
-However the fragment is capitalized and punctuated as if it were a complete sentence,Coding Guidelines
-The Titan Delta and Space Shuttle launch vehicles used solid propellant rockets to provide additional thrust during the liftoff,Case Study
-However many hurdles still stand in the way of making space travel a reality for the everyman,Case Study
-In the early years of space travel passengers needed to go through harsh and rigorous training alongside professional astronauts in order to get acclimated to the extreme environmental changes in space,Case Study
-Enable the following inspections  Java  Internationalization  Implicit usage of platforms default charset  Java  Control flow issues  Redundant else including Report when there are no more statements after the if statement option  Java  Class structure  Utility class is not final  Java  Class structure  Utility class with public constructor  Java  Class structure  Utility class without private constructor,Coding Guidelines
-This discoverytechnology capitalizes on the distinctive characteristicsproperties of superconductors,Case Study
-These sails are about onefourth the thickness of a plastic trash bag,Case Study
-We subtract both net purchases of property and equipment and principal payments on finance leases in our calculation of free cash flow because we believe that these two items collectively represent the amount of property and equipment we need to procure to support our business regardless of whether we procure such property or equipment with a finance lease,Financial Reports
-Additionally presentation was performed in front of general public and surveys were conducted to assess the perceived accessibility of space travel to ordinary people,Case Study
-The following is a very common idiom for ensuring that the code under test does throw an exception of the expected type so a comment is unnecessary here,Coding Guidelines
-Examples  Constants static final int NUMBER  5 static final ImmutableListString NAMES  ImmutableListofEd Ann static final ImmutableMapString Integer AGES  ImmutableMapofEd 35 Ann 32 static final Joiner COMMA_JOINER  Joineron  because Joiner is immutable static final SomeMutableType EMPTY_ARRAY   enum SomeEnum  ENUM_CONSTANT   Not constants static String nonFinal  nonfinal final String nonStatic  nonstatic static final SetString mutableCollection  new HashSetString static final ImmutableSetSomeMutableType mutableElements  ImmutableSetofmutable static final ImmutableMapString SomeMutableType mutableValues  ImmutableMapofEd mutableInstance Ann mutableInstance2 static final Logger logger  LoggergetLoggerMyClassgetName static final String nonEmptyArray  these can change These names are typically nouns or noun phrases,Coding Guidelines
-Background History of Space Travel History of Rocketry The outer space has been an object of fancy inspiration and study from ancient times,Case Study
-When one of the firms managing attorneys expressed interest in getting information about potential litigation quicker the RPA team figured out a way to use a bot to scan a daily email the company received and highlight potential litigation,Case Study
-Q What is the number of other people in your household that you support,Case Study
-There are no other blank lines between import statements,Coding Guidelines
-Android doesnt use finalizers,Coding Guidelines
-These and other potential risks and uncertainties that could cause actual results to differ from the results predicted are more fully detailed under the caption Risk Factors in our Annual Report on Form 10K filed with the SEC on January 30 2020 which is available on our Investor Relations website at investorfbcom and on the SEC website at wwwsecgov,Financial Reports
-Through all seven rounds of the threeday event AWS ensured that over 100 live feeds ran successfully creating a seamless experience for the NFL teams coaches players and their families fans and everyone watching,Financial Reports
-One group of participants was chosen randomly at a Language School in Brighton MA,Case Study
-Both are dense and can be easily stored and operated stably at ordinary temperatures,Case Study
-The year 2001 marked the beginning of space tourism as a wealthy California businessman Dennis Tito became the first paying passenger for space flight27,Case Study
- Operating income loss is expected to be between 15 billion and 15 billion compared with 31 billion in second quarter 2019,Financial Reports
-40 M Brown Orbital Debris Mitigation NASA Orbital Debris Program Office 08Jan2013,Case Study
-  Copyright 2020 The Android Open Source Project   Licensed under the Apache License Version 20 the License  you may not use this file except in compliance with the License,Coding Guidelines
-An agent would be able to bring up veriﬁcation documents from Documentum using information from the CalWIN system and launch the veriﬁcation process with a single hotkey,Case Study
-To be able to store food onboard space shuttles and ISS astronauts were provided with freezedried powders bitesize cubes and semiliquids in tubes42,Case Study
-While finalizers can be handy for cleanup particularly of external resources there are no guarantees as to when a finalizer will be called or even that it will be called at all,Coding Guidelines
-The spacecraft will stabilize itself for reentry through feathering the wings then glide back to Earth for a conventional runway landing27 30,Case Study
-and unit test code junitframework,Coding Guidelines
-Under this Act every commercial space launch landing and operation will be attended and evaluated by FAA representatives all spaceflight participants will also be guided through an informed consent process in writing about the risks of launch and reentry including the safety record of the launch vehicle27,Case Study
-For example testMethod_specificCase1 testMethod_specificCase2 void testIsDistinguishable_protanopia  ColorMatcher colorMatcher  new ColorMatcherPROTANOPIA assertFalsecolorMatcherisDistinguishableColorRED ColorBLACK assertTruecolorMatcherisDistinguishableColorX ColorY  void setServerPortString value throws NumberFormatException  serverPort  IntegerparseIntvalue  Throw a new exception thats appropriate to your level of abstraction,Coding Guidelines
-Enable errorprone Error Prone InstallationIDEA  Install Error Prone Compiler plugin from marketplace  In Java Compiler tab select Javac with errorprone as the compiler  Update Additional command line parameters with XepExcludedPathstargetgeneratedtestsources,Coding Guidelines
-Online,Case Study
-64 R Netting Science that Cant be Done on Earth NASA Science News,Case Study
-IV,Case Study
-This engine won the Ansari XPrize51,Case Study
-Systemout and Systemerr get redirected to devnull so your print statements have no visible effects,Coding Guidelines
-Now lowercase everything including acronyms then uppercase only the first character of   each word to yield upper camel case or   each word except the first to yield lower camel case 4,Coding Guidelines
-Thirdly the problem of shelter can be a major hazard for space travel,Case Study
-For example PrestoException takes an error code as an argument PrestoExceptionHIVE_TOO_MANY_OPEN_PARTITIONS,Coding Guidelines
+Accessed 27Aug2013,Case Study
+_T_ NASA plans to return to the moon by the year 2020 and build a livable colony there,Case Study
+Accessed 29Aug2013,Case Study
+For example software bots now monitor each account daily so they can keep owners uptodate on billing,Case Study
 For the twelve months ended March 31 2019 and 2020 this amount relates to property included in Principal repayments of finance leases of 7649 million and 10013 million,Financial Reports
-For example exercise machines in gyms and sports centers were originally designed for the astronauts in space to prevent longterm weakening of their muscles and bones,Case Study
-75 of participants got it right,Case Study
-Automation Anywhere wwwautomationanywherecom North America 18884843535 x1  International 14088347676 x1 AutomationAnywh wwwlinkedincomcompanyautomationanywhere salesautomationanywherecom Automation Anywhere 2019 January 2020 ,Case Study
-Another launch accident this one from Cape Canaveral in June destroyed a set of science experiments meant to supplement the stories,Case Study
-Seamless execution on 2000 computers  SMART Automation Technology The agents all use dierent computer conﬁgurations  so any solution would have to adjust to several parameters like screen sizes and resolutions operating systems and dierent platforms including Citrix and then run the automated tasks seamlessly on each computer,Case Study
-It is estimated that the cable will need to have a tensile strength that is above a 100 GPa and recently carbon nanotubes have been touted as the answer to realizing the space elevator dream with its theoretically possible strength of 100 GPa7 17,Case Study
-Just myself A,Case Study
-This also applies to the following operatorlike symbols  the ampersand in a conjunctive type bound T extends Foo  below Bar  the pipe for a catch block that handles multiple exceptions catch FooException  BarException e  the colon  in an enhanced for foreach statement  the arrow in a lambda expression String str  strlength 5 but not  the two colons  of a method reference which is written like ObjecttoString  the dot separator ,Coding Guidelines
-Weve expanded Whole Foods Market grocery pickup from roughly 80 stores to more than 150 adjusted store hours for select locations to focus exclusively on fulfilling online grocery orders during certain times and have made it easier for customers to see when the next delivery window is available on the Prime Now Amazon Fresh and Whole Foods Market homepages,Financial Reports
- When a condition that would normally justify some logging is likely to occur many times it can be a good idea to implement some ratelimiting mechanism to prevent overflowing the logs with many duplicate copies of the same or very similar information,Coding Guidelines
-More detailed results of the survey are shown in Appendix E and F 12 115 11 105 10 95 9 85 8 75 7 Presurvey 1 Postsurvey 2 LC CC combined number of right answers LC CC combined presurvey post survey 896 943 815 868 SD1695 SD285 SD216 1146 1021 SD208 SD176 SD219 Given the limited exploratory nature of the study it was challenging to find any statistically significant correlations between the participants background interests and knowledge on space travel,Case Study
-Ion Propulsion for Deep Space  35 2,Case Study
-Solution A noninvasive automation process utilizing the frontend of both applications and a system that completed all veriﬁcation requirements with the press of a single hotkey,Case Study
-Available httpwwwrenewableenergyworldcomreatechhydrogen,Case Study
-The system will begin at an anchor station where a strong ribbon of carbon nanotube cables will be held from a mobile platform in the equatorial Pacific,Case Study
-Quantum locking opens new possibilities for space travel as well,Case Study
+ET today,Financial Reports
+Unlike such incredible history of aviation the history of space flight has not seen innovation for almost two generations2,Case Study
+The laser will beam 24 megawatts of energy to photovoltaic cells perhaps made of Gallium Arsenide GaAs attached to the lifter which will then convert that energy to electricity to be used by conventional niobiummagnet DC electric motors according to the ISR7 17 60,Case Study
+Due to these features liquid propellant systems are used in many upperstage applications where high escape velocity and high propellant mass fraction are important52,Case Study
+The gas is held and regulated under a very high pressure by a valve or regulator,Case Study
+For example comexampledeepspace not comexampledeepSpace or comexampledeep_space,Coding Guidelines
+26 A Chaikin Space Shuttles in National Geographic Encyclopedia of Space Washington DC National Geographic 2005 pp,Case Study
 Online,Case Study
-Amazon Keyspaces supports the same application code Apache 20 licensed drivers and developer tools that customers running Cassandra workloads use today,Financial Reports
-AWS now spans 76 Availability Zones within 24 geographic regions with announced plans for nine more Availability Zones and three more AWS Regions in Indonesia Japan and Spain,Financial Reports
- Use the SuppressWarnings annotation only under circumstances where its impossible to eliminate a warning,Coding Guidelines
-Other terminology notes will appear occasionally throughout the document,Case Study
-People discovered that the Earth was not the center of the universe and that there were other planets orbiting around the sun with their own moons orbiting around them16,Case Study
-NonGAAP net income and diluted EPS We define nonGAAP net income as net income excluding certain charges less the related tax effects as applicable and nonGAAP diluted EPS as net income excluding certain charges less the related tax effects as applicable divided by total weighted average outstanding shares on a fullydiluted basis,Financial Reports
-Accessed 26Aug2013,Case Study
- The basic form is always acceptable,Coding Guidelines
-Note that the casing of the original words is almost entirely disregarded,Coding Guidelines
-History of Space Shuttles NASA has been planning to build a reusable spaceship beginning in the 1960s,Case Study
-Amazon Web Services  AWS announced the opening of the AWS Europe Milan and AWS Africa Cape Town Regions,Financial Reports
-The call begins today at 130 PM PT  430 PM ET,Financial Reports
-We subtract purchases of property and equipment in our calculation of free cash flow because we believe that this methodology can provide useful supplemental information to help investors better understand underlying trends in our business,Financial Reports
-These complexities resulted in hundreds of business rules making process automation imperative,Case Study
-Other Considerations A,Case Study
-Since February 2007 the United Nations has also joined the effort through the United Nations Committee on the Peaceful Uses of Outer Space COPUOS,Case Study
-Your responses on the survey will be completely anonymous and private,Case Study
-Departing from the use of gunpowder in ancient times modern solid fueled rockets use more powerful fuels49,Case Study
-523 Method names Method names are written in lowerCamelCase,Coding Guidelines
-This was something that had not been done before by any other firm,Case Study
-The space suit provides breathable air suitable temperature moisture pressure odor and waste gas removal as well as shelter from radiation and debris41,Case Study
-A blank line before the first member or initializer or after the last member or initializer of the class is neither encouraged nor discouraged,Coding Guidelines
-About Facebook Founded in 2004 Facebooks mission is to give people the power to build community and bring the world closer together,Financial Reports
-B,Case Study
-Various shapes are used to optimize the thrust50,Case Study
-Online,Case Study
-A telephonic replay will be available for one week following the conference call at 1 404 5373406 or 1 855 8592056 conference ID 6068418,Financial Reports
-However by combining human strength with that of robots greater strength speed endurance and adaptation can be achieved,Case Study
- Recommended if any word already has a conventional camelcase appearance in common usage split this into its constituent parts eg AdWords becomes ad words,Coding Guidelines
-The mass of the platform will also ensure that the center of mass of the system stays sufficiently above the earth7 60,Case Study
-High School or equivalent diploma C Some college Associates Degree etc,Case Study
-Goddard also became the first person to develop liquidfuel for rockets which were evidently more efficient than solid fuel despite some of its disadvantages eg,Case Study
-Free cash flow is not intended to represent our residual cash flow available for discretionary expenditures,Financial Reports
-They are imported with normal imports,Coding Guidelines
- Amazon is supporting small businesses by partnering with American Express and its Stand for Small initiative providing free use of business tools that help with virtual communication and collaboration such as Amazon Chime Amazon WorkDocs and Amazon WorkSpaces as well as enabling small businesses to use the cloud at no charge for 12 months with AWS Free Tier,Financial Reports
-If your debug logs are dominating the log then you should use verbose logging,Coding Guidelines
-Between consecutive members or initializers of a class fields constructors methods nested classes static initializers and instance initializers,Coding Guidelines
-email borimseogmailcom 5082571616 H Outline of the presentation I II,Case Study
- etc,Coding Guidelines
-The privatization and commercialization of space travel has been a boon for the industry indeed with exciting developments in new concepts and possibilities2 5,Case Study
-Multiple consecutive blank lines are permitted but never required or encouraged,Coding Guidelines
-In privatizing the SSP implementing strong check and balance processes has been paramount,Case Study
-These proponents have suggested that the elevator could lower the cost of space travel from 20000kg cost of using conventional rocket propulsion to thrust a satellite into space to as low as 200kg7,Case Study
-For example new methods are not just habitually added to the end of the class as that would yield chronological by date added ordering which is not a logical ordering,Coding Guidelines
-We believe that both management and investors benefit from referring to these nonGAAP financial measures in assessing our performance and when planning forecasting and analyzing future periods,Financial Reports
- Srinivasan Damodaran Services HeadClient Operations Infosys BPM About Infosys BPM Infosys BPM Ltd the business process management BPM subsidiary of Infosys Ltd NYSE INFY offers integrated endtoend transformative BPM services to its clients,Case Study
-c Exoskeletons With the recently developed assistive machines and robots human beings can be less prone to weakness in extreme environments and conditions such as the space environment and agerelated conditions,Case Study
-Results indicated that when issues of cost safety and convenience are targeted and resolved through offering alternative solutions in recent developments participants indeed considered space travel to be more of a personally feasible aspiration,Case Study
-Available httpwwwpresidencyucsbeduwspid8151,Case Study
+Many times you dont need to catch the exception at this level anyway just let the method throw it,Coding Guidelines
+private enum Suit  CLUBS HEARTS SPADES DIAMONDS  Since enum classes are classes all other rules for formatting classes apply,Coding Guidelines
+When the compiler complains that youre not catching an exception dont scowl,Coding Guidelines
+In addition to zero electrical resistance superconductors are known to have magnetic resistance where they attempt to expel any magnetic strands that tries to enter their interior,Case Study
+All the string building for the log also needs to be placed inside the if LOCAL_LOG block,Coding Guidelines
+___ Several private companies have successfully built and sent powerful rockets into space,Case Study
+Superconductors and Quantum Locking  37 4,Case Study
 It solved an ancillary issue as well agents routinely opened multiple forms on the screen at once  and only the most recently opened was visible,Case Study
-Even when the magnet is turned upside down the superconductor will remain locked in the same position in regard to the magnet,Case Study
-Devices and Alexa  Alexa is available on even more devices including TV mobile and auto and is now available on select LG and Samsung Smart TV 2020 models and the new OnePlus 8 mobile phone,Financial Reports
-Solution A noninvasive automation process utilizing the frontend of both applications and a system that completed all veriﬁcation requirements with the press of a single hotkey,Case Study
-NonGAAP operating margin We define nonGAAP operating margin as nonGAAP operating income divided by revenues,Financial Reports
+To help with the administration of these programs the agency uses CalWIN a stateapproved program,Case Study
+ AWS is helping the state of Rhode Island address a surge in unemployment insurance applications  10 times the volume their legacy system could typically handle  by powering the Department of Labor and Trainings website and online application portal,Financial Reports
+Q What is your nationalitycountry of origin,Case Study
+ Exception Blank lines between enum constants are covered in 2,Coding Guidelines
+More information about factors that potentially could affect Amazoncoms financial results is included in Amazoncoms filings with the Securities and Exchange Commission SEC including its most recent Annual Report on Form 10K and subsequent filings,Financial Reports
+Looking into the magnificent sky and its stars people have wondered what lies beyond them and whether they could reach the other side,Case Study
+These forwardlooking statements are inherently difficult to predict,Financial Reports
+47 Space program cost estimates update Examinercom 19Mar2009,Case Study
+In the Javadoc comments describe what the class or interface does,Coding Guidelines
+The price is significantly lower than the competitors in order to make commercial spaceflight more accessible to the public,Case Study
+Supporting documents used to qualify every individual for various government assistance programs like food stamps the Supplemental Nutrition Program Temporary Assistance for Needy Families Medical and more were being transferred onto a digital format using EMC Documentum,Case Study
+At Language School LS 27 participants attended the informative talk,Case Study
+Amazon has donated more than 750000 relief items to help community partners responding to largescale natural disasters,Financial Reports
+Specifically theres no need to log situations where an exception is thrown the exception should contain all relevant information or where the only information being logged is contained in an error code,Coding Guidelines
+Android doesnt enforce a specific style for writing Javadoc comments but you should follow the instructions in How to Write Doc Comments for the Javadoc Tool,Coding Guidelines
 Available httpwwwnasagovmission_pagesconstellationmaincevhtml,Case Study
-Although this bot is relatively new and the business impact hasnt been measured yet the potential of the bot to help the company obtain new business is expected to make a big impact,Case Study
-The column limit Section 44 Column limit 100 does not apply to import statements,Coding Guidelines
+Leveraging RPA and analytics tools within that platform Signify standardized and streamlined its reporting process giving employees valuable time to review realtime data to make more accurate strategic decisions,Case Study
+When the block ends the indent returns to the previous indent level,Coding Guidelines
+Also 40 years after our first moon landing no plans exist to return to the moon until 2020 until we build the capability to have sustained human presence on the moon8,Case Study
+When Javastyle was asked the preferred styles varied wildly and it came down to Android needing to simply pick an ordering and be consistent,Coding Guidelines
+The delivery targeted for December was delayed a year because of a Virginia launch explosion,Case Study
+The sails are made of reflective material that has the sunlights photons bounce off of it as these light particles bounce off the mirrorlike sail they transfer their momentum to the sail to nudge it along56,Case Study
+The two paperandpencil surveys were administered on site to the participants providing both written answers and responses to multiple choice questions,Case Study
+One way PGE is planning to increase efficiency of solar cells is to use parabolic reflectors that will concentrate sunlight onto the cells,Case Study
+Prefer String formatting Consider using String formatting printf style formatting using the Java Formatter class formatSession property s is invalid s name value note that format should always be statically imported,Coding Guidelines
+There is no One Correct Way to name test methods,Coding Guidelines
+Available httpwwwspacerefcomnewsviewsrhtmlpid3828,Case Study
+They also make it possible to mock complex interfaces or classes which hides the fact that these classes are not easily testable,Coding Guidelines
+Fortunately recent privatization of the space industry has been so far a great antidote to the fiscal problem2 10 ,Case Study
+Moreover remote monitoring devices for intensive care patients were derived from the telemetry systems that first monitored astronauts and spacecraft,Case Study
+_T_ It is possible to use solar energy to fly through space with currently available technology,Case Study
+All NFL games on Prime Video are available at no extra cost to Prime members,Financial Reports
+ If logging reports successes never use it at levels higher than VERBOSE,Coding Guidelines
+___ It is possible to use solar energy to fly through space with currently available technology,Case Study
+Accessed 26Aug2013,Case Study
+523 Method names Method names are written in lowerCamelCase,Coding Guidelines
+_F_ There is no difference between orbital and suborbital space flights,Case Study
+Both are dense and can be easily stored and operated stably at ordinary temperatures,Case Study
+The company delivers legal solutions coupled with business and industry insight to help clients address their most complex business challenges,Case Study
+To name a few these innovations include light bulbs integrated circuits freeze dried foods particle accelerators electron microscopes weather forecasting human flight p164,Case Study
+A blank line before the first member or initializer or after the last member or initializer of the class is neither encouraged nor discouraged,Coding Guidelines
+Sales from customers who order goods online for delivery or pickup at our physical stores are included in Online stores Includes commissions and any related fulfillment and shipping fees and other thirdparty seller services,Financial Reports
+Constants are static final fields whose contents are deeply immutable and whose methods have no detectable side effects,Coding Guidelines
+Basic knowledge a,Case Study
+With this eventual top speed the solar sail vehicle would be able to reach Los Angeles from New York in less than a minute,Case Study
+ When used on String objects the  operator implicitly creates a StringBuilder instance with the default buffer size 16 characters and potentially other temporary String objects,Coding Guidelines
+4843 The default case is present Each switch statement includes a default statement group even if it contains no code,Coding Guidelines
+If value is not a valid number 80 is substituted,Coding Guidelines
+As mentioned in a previous section among the most problematic objects in orbit are space junk comprised of pieces such as nonfunctional space crafts abandoned launch vehicle stages missionrelated debris and fragmentation debris35 39,Case Study
+___ In the future regular people will be able to go into space,Case Study
+Dont ignore exceptions It can be tempting to write code that ignores an exception such as void setServerPortString value  try  serverPort  IntegerparseIntvalue  catch NumberFormatException e    Dont do this,Coding Guidelines
+B,Case Study
+Beginning with the prose form of the name 1,Coding Guidelines
+For more information on these nonGAAP financial measures please see the tables captioned Reconciliation of nonGAAP results of operations to the nearest comparable GAAP measures Reconciliation from net cash provided by operating activities to free cash flow and Reconciliation from GAAP revenues to nonGAAP constant currency revenues included at the end of this release,Financial Reports
+The commonality among the three types is that they all use a propellant to thrust the rocket forward,Case Study
+Beneﬁts Reduced costs and risks faster turnaround for veriﬁcation and fewer human errors,Case Study
+It also plans to send its process improvement and automation architect to offices to keep evangelizing RPA and get employees excited about it,Case Study
+Along this taut string an ant could climb steadily to eventually reach the weight attached at the end,Case Study
+Most formatters dont rewrap lines in   style comment blocks,Coding Guidelines
+6 CONDENSED CONSOLIDATED STATEMENTS OF INCOME FACEBOOK INC In millions except for per share amounts Unaudited Three Months Ended March 31 2019 1 2020  17737       15077 2816 2860 2020 4064 11760 3317 165 3482 1053 2429 085 085 2856 2869 87 723 113 87 1010 3459 4015 2787 1583 11844 5893 32 5861 959 4902 172 171 2851 2868 94 999 149 93 1335 Revenue Costs and expenses Cost of revenue Research and development Marketing and sales General and administrative Total costs and expenses Income from operations Interest and other income expense net Income before provision for income taxes Provision for income taxes Net income Earnings per share attributable to Class A and Class B common stockholders Basic Diluted Weightedaverage shares used to compute earnings per share attributable to Class A and Class B common stockholders Basic Diluted Sharebased compensation expense included in costs and expenses Cost of revenue Research and development Marketing and sales General and administrative Total sharebased compensation expense      _________________________ 1 Includes a 30 billion legal expense accrued in the first quarter of 2019 related to our settlement with the FTC,Financial Reports
+However the sails available today are almost 100 times thinner than an average sheet of paper and NASAs version of the giant sails are called CP1,Case Study
+Nonrequired Javadoc is not strictly required to follow the formatting rules of Sections 712 713 and 72 though it is of course recommended,Coding Guidelines
+ Facebook monthly active users MAUs  MAUs were 260 billion as of March 31 2020 an increase of 10 yearoveryear,Financial Reports
+Problems with conventional rockets Recent exciting developments in the field a Elon Musk and SpaceX b,Case Study
+It obscures the failure handling properties of your code meaning if someone adds a new type of exception in the code youre calling the compiler wont point out that you need to handle the error differently,Coding Guidelines
+3 F Howard Wilbur and Orville a biography of the Wright brothers,Case Study
+Accessed 26Aug2013,Case Study
+_____________________ What is your primary language,Case Study
+The petroleum is a type of highly refined kerosene which delivers a specific impulse which is significantly less than cryogenic fuels but larger than hypergolic fuels51,Case Study
+In 2008 NanoSailD was launched on Space Xs third attempt for Falcon 1,Case Study
+Command lines in a comment that may be cutandpasted into a shell,Coding Guidelines
+It does not begin with A code Foo is a or This method returns nor does it form a complete imperative sentence like Save the record,Coding Guidelines
+The April trends reflect weakness across all of our user geographies as most of our major countries have had some sort of shelterinplace guidelines in effect,Financial Reports
+___ The first time humans landed on the moon was 40 years ago and we have not gone back since,Case Study
+It solved an ancillary issue as well agents routinely opened multiple forms on the screen at once  and only the most recently opened was visible,Case Study
+However in order for this to happen there is a big limiting factor in the cable itself,Case Study
+Through the brief study it also became evident that the topic of space travel is inherently very interesting to everyone as all participants indicated at least an average degree of interest in space travel,Case Study
+Use TODO comments Use TODO comments for code that is temporary a shortterm solution or good enough but not perfect,Coding Guidelines
+Use Airlifts Assertions For thing not easily expressible with AssertJ use Airlifts Assertions class if there is one that covers your case,Coding Guidelines
+email borimseogmailcom 5082571616 H Outline of the presentation I II,Case Study
+Each booster contains 500000 kg of propellant and can produce up to 14680000 Newtons of thrust force51,Case Study
+One of the great ways to be protected from these extreme space conditions is to use well designed space suits,Case Study
+The participants were of a homogeneous racial group from South Korea except for four younger participants who were considered KoreanAmerican,Case Study
+201618 Statement of Cash Flows Restricted Cash Topic 230 on January 1 2018,Financial Reports
+However the concerns proved to be unfounded as no delays were experienced28,Case Study
+Forwardlooking statements This press release may contain forwardlooking statements that involve risks and uncertainties,Financial Reports
+ We evaluated many other products but we chose AA because of its ﬂexibility to integrate with legacy systems I would recommend AA for its ﬂexibility to integrate and automate processes of any kind  Vinesh Goyal ECM Practice Director Burntsand Corporation Integrated solution provider digitized ECM project for San Diego CountySan Diego County  Health and Human Services AgencyAn Automation Anywhere Case StudyGo be great,Case Study
+The only situations that should trigger logging at the INFORMATIVE level or higher is when a module or app detects an error at its own level or coming from a lower level,Coding Guidelines
+2 B Rutan The Real Future of Space Exploration,Case Study
+Online,Case Study
+This has substantially enhanced cash flow while freeing up resources to design innovative new sources of lighting,Case Study
+A single blank line may also appear anywhere it improves readability for example between statements to organize the code into logical subsections,Coding Guidelines
+Therefore spacecrafts are not able to run long enough to land and explore its destinations7 45,Case Study
+For a 3year round trip to Mars thousands of kilograms of food would then be needed a crew of four will need to carry 10886 kg of food with them to space42,Case Study
+This remarkably strong force can be used for many applications,Case Study
+ import fooBar Makes it obvious what classes are used and the code is more readable for maintainers,Coding Guidelines
+64 R Netting Science that Cant be Done on Earth NASA Science News,Case Study
+More detailed results of the survey are shown in Appendix E and F 12 115 11 105 10 95 9 85 8 75 7 Presurvey 1 Postsurvey 2 LC CC combined number of right answers LC CC combined presurvey post survey 896 943 815 868 SD1695 SD285 SD216 1146 1021 SD208 SD176 SD219 Given the limited exploratory nature of the study it was challenging to find any statistically significant correlations between the participants background interests and knowledge on space travel,Case Study
+C 1 a Problems Limitations and Possible Solutions Safety and Convenience Space Junk One of the major safety concerns for space travel perhaps surprisingly has to do with the space debris that we have created since the 1960s35,Case Study
+On March 18th 1965 Soviet astronaut Aleksey Leonov made the first spacewalk which lasted about 12 minutes,Case Study
+An agent would be able to bring up veriﬁcation documents from Documentum using information from the CalWIN system and launch the veriﬁcation process with a single hotkey,Case Study
+A Majority of participants 23 were students 3 were teachers 1 was a small business owner 1 worked for Real Estates and 1 was associated directorteacher,Case Study
+Additional IDE configuration When using IntelliJ to develop Presto we recommend starting with all of the default inspections with some modifications,Coding Guidelines
+The following is a very common idiom for ensuring that the code under test does throw an exception of the expected type so a comment is unnecessary here,Coding Guidelines
+In privatizing the SSP implementing strong check and balance processes has been paramount,Case Study
+Solar sail stands as one of the most realistic options for interplanetary and even intergalactic travel as it eliminates both rocket fuel and rocket engines that have been limiting space travel until now55,Case Study
+Any comment that communicates the idea of fallthrough is sufficient typically  fall through,Coding Guidelines
+Available httpwwwbraeunigusspacepropelhtm,Case Study
+Keep in mind that code that calls Logv is compiled and executed on release builds including building the strings even if the logs arent being read,Coding Guidelines
+ AWS is helping Kentucky and West Virginia authorities address the surge in call volumes to unemployment call centers by transitioning from legacy technology that often required agents to work in the states offices to Amazon Connect which enables staff to work remotely via the AWS Cloud,Financial Reports
+Superconductors are materials that have virtually zero electrical resistance unlike other conductors in which electrons collide with atoms while flowing through the material54,Case Study
+When a block tag doesnt fit on a single line continuation lines are indented four or more spaces from the position of the ,Coding Guidelines
+Accessed 30Aug 2013,Case Study
+Thus it is necessary to find some ways to store the energy to use in times and places where no sunlight is provided yet not one found the way to do this in a large scale,Case Study
+In this case its appropriate but not required to print a short log message from the finalizer as long as its not expected to flood the logs,Coding Guidelines
+So explicitly creating StringBuilder objects isnt more expensive than relying on the default  operator and can be a lot more efficient,Coding Guidelines
+Available httpinventorsaboutcomodrstartinventionsaSolidPropellanthtmp1,Case Study
+We purchased more than 1000 thermal cameras and 31000 thermometers which we are using to conduct mandatory daily temperature checks for employees and support staff throughout our operations sites and Whole Foods Market stores,Financial Reports
+In addition please note that the date of this press release is April 25 2018 and any forwardlooking statements contained herein are based on assumptions that we believe to be reasonable as of this date,Financial Reports
+Building upon these analyses several alternatives were discussed,Case Study
+It also will save us from the trouble when we happen to run out of fuel during intergalacticspace travel,Case Study
+Online,Case Study
+This could put the objects seriously off from the intended course by as much as ten or more kilometers61,Case Study
+Additionally Ring launched mandatory twostep verification for all users along with the ability to opt out of personalized advertising,Financial Reports
+Alternatively it may be closed immediately after it is opened with no characters or line break in between  unless it is part of a multiblock statement one that directly contains multiple blocks ifelse or trycatchfinally,Coding Guidelines
+Transcripts of conference calls with publishing equity research analysts held today will also be posted to the investorfbcom website,Financial Reports
+She has had a passion for space travel cosmology and astrophysics since she was a very young girl in Korea,Case Study
+After looking at scalability security and the departments that were mature enough to manage their own bots Husch Blackwell began automating processes specific to its law practice,Case Study
+Accessed 26Aug2013,Case Study
+With the Soviet successes in space the United States joined in competition and started the oftcalled space race between the two countries,Case Study
+Gaining Energy from Outer Space Although solar power has huge potential to be used for energy source and many scientists have dreamed of collecting the solar energy and use it in everyday life its limitations has prevented it from being used,Case Study
+Online,Case Study
+These proponents have suggested that the elevator could lower the cost of space travel from 20000kg cost of using conventional rocket propulsion to thrust a satellite into space to as low as 200kg7,Case Study
+Beneﬁts Reduced costs and risks faster turnaround for veriﬁcation and fewer human errors,Case Study
+3 Three Months Ended March 31 2018 11966  1927 2238 1595 757 6517 5449 161 5610 622 4988  1 4987  172  169  2906 2945 56  718 109 72 955  2017 8032 1159 1834 1057 655 4705 3327 81 3408 344 3064 5 3059 106 104 2891 2944 34 670 96 67 867 CONDENSED CONSOLIDATED STATEMENTS OF INCOME In millions except for per share amounts FACEBOOK INC Unaudited Revenue Costs and expenses Cost of revenue Research and development Marketing and sales General and administrative Total costs and expenses Income from operations Interest and other income net Income before provision for income taxes Provision for income taxes Net income Less Net income attributable to participating securities Net income attributable to Class A and Class B common stockholders Earnings per share attributable to Class A and Class B common stockholders Basic Diluted Weighted average shares used to compute earnings per share attributable to Class A and Class B common stockholders Basic Diluted Sharebased compensation expense included in costs and expenses Cost of revenue Research and development Marketing and sales General and administrative Total sharebased compensation expense        4 FACEBOOK INC CONDENSED CONSOLIDATED BALANCE SHEETS In millions Unaudited March 31 2018 8079 33632 5832 1020 48563 13721 1884 18221 2135 84524 December 31 2017 12082  31874 5115 1341 50412 16211 1735 18268 2319 88945  593  396 4003 94 5086 6239 11325 41134 294  36780 77620 88945  380 390 2892 98 3760 6417 10177 40584 227  33990 74347 84524 Total current assets Assets Current assets Cash and cash equivalents Marketable securities Accounts receivable net of allowances of 204 and 189 as of March 31 2018 and December 31 2017 respectively Prepaid expenses and other current assets Property and equipment net Intangible assets net Goodwill Other assets Total assets Liabilities and stockholders equity Current liabilities Accounts payable Partners payable Accrued expenses and other current liabilities Deferred revenue and deposits Other liabilities Total liabilities Stockholders equity Common stock and additional paidin capital Accumulated other comprehensive loss Retained earnings Total liabilities and stockholders equity Total stockholders equity Total current liabilities     5 CONDENSED CONSOLIDATED STATEMENTS OF CASH FLOWS FACEBOOK INC In millions Unaudited Net income Adjustments to reconcile net income to net cash provided by operating activities Cash flows from operating activities Depreciation and amortization Sharebased compensation Deferred income taxes Other Changes in assets and liabilities Accounts receivable Prepaid expenses and other current assets Other assets Accounts payable Partners payable Accrued expenses and other current liabilities Deferred revenue and deposits Other liabilities Net cash provided by operating activities Cash flows from investing activities Three Months Ended March 31 2018 4988  949 955 47  8 788 365  22 1 2 707 5  143  7860 2812  4022  4330 1267 49  1  1287  832  1774  3 2603  36 4006 8204 12210  2017 3064 671 867 84  5 609 365  31 10  3  61 10  222 5058 1271  6992  1762 599  18  5920  771  228  7 992  28 1826  9109 7283    Purchases of property and equipment Purchases of marketable securities Sales of marketable securities Maturities of marketable securities Acquisitions of businesses net of cash acquired and purchases of intangible assets Other investing activities net Net cash used in investing activities Cash flows from financing activities Taxes paid related to net share settlement of equity awards Repurchases of Class A common stock Other financing activities net Net cash used in financing activities Effect of exchange rate changes on cash cash equivalents and restricted cash Net increase decrease in cash cash equivalents and restricted cash Cash cash equivalents and restricted cash at beginning of year Cash cash equivalents and restricted cash at end of the period Reconciliation of cash cash equivalents and restricted cash to the condensed consolidated balance sheets Cash and cash equivalents Restricted cash included in prepaid expenses and other current assets Restricted cash included in other assets Total cash cash equivalents and restricted cash Priorperiod information has been retrospectively adjusted due to our adoption of ASU No,Financial Reports
+Available httpsciencehowstuffworkscomspaceelevatorhtm,Case Study
+Husch Blackwell is starting to investigate opportunities to improve inefficiencies in knowledge management the area that helps retain and win new business,Case Study
+On both sides of any binary or ternary operator,Coding Guidelines
+In reaction to this tragedy the US space program was grounded for 32 months as the public and program questioned and weighed the safety of space flight2 23 24,Case Study
+The average age of the participants was 269 years old with a range of 10 to 49,Case Study
+CHALLENGE Signify was looking for ways to streamline and improve the performance of several processes including balance sheet account reconciliations RTR purchasetopay PTP and credit and collections CC,Case Study
+Purchases of property and equipment,Financial Reports
+sorts before ,Coding Guidelines
+However all the string building that happens for these calls still gets executed,Coding Guidelines
+Drew did his 2011 demo as a favor for Tribe former education director at Space Center Houston the tourist side of Johnson Space Center,Case Study
+Seamless execution on 2000 computers  SMART Automation Technology The agents all use dierent computer conﬁgurations  so any solution would have to adjust to several parameters like screen sizes and resolutions operating systems and dierent platforms including Citrix and then run the automated tasks seamlessly on each computer,Case Study
+Although the Project had hoped that one of these 7 would become the first man in space in April 1961 Yuri Gagarin of Soviet Union claimed the honor  just a few weeks before the USs Alan Shepard went into space in May 196119,Case Study
+The invention of this new propulsion method will enable interplanetary travel as well as interstellar travel53,Case Study
+RPA is expected to dramatically reduce the time and cost of performing basic tasks for both the front and back office,Case Study
+Husch Blackwell Paving the Way for RPA in the Law Industry PROFILE ORGANIZATION With headquarters in Kansas City Missouri Husch Blackwell is a law firm of approximately 700 attorneys in 19 offices across the US,Case Study
+Double base propellants have two compounds usually nitrocellulose and nitroglycerine and a plasticizer is added to increase the plasticity or fluidity of a material,Case Study
+and  TODO Change this to use a flag instead of a constant,Coding Guidelines
+Optional formatting choices made in examples should not be enforced as rules,Case Study
+Private companies  19 C Problems Limitations and Possible Solutions  20 1,Case Study
+Multiple consecutive blank lines are permitted but never required or encouraged,Coding Guidelines
+Devices and Alexa  Alexa is available on even more devices including TV mobile and auto and is now available on select LG and Samsung Smart TV 2020 models and the new OnePlus 8 mobile phone,Financial Reports
+Exciting developments in space tourism does not end there,Case Study
+_F_ There is no difference between orbital and suborbital space flights,Case Study
+44 Column limit 100 Java code has a column limit of 100 characters,Coding Guidelines
+The pressurized gas feed is simpler than the other,Case Study
+This concept is wellillustrated by imagining a person rotating in order to swing around a long piece of string with a weight attached at the end of it,Case Study
+These innovations most of them not patented ultimately all advance the concept making rockets reusable7,Case Study
+About Facebook Founded in 2004 Facebooks mission is to give people the power to build community and bring the world closer together,Financial Reports
+On Voskhod 2 Alexei Leonov then became the first man to make a spacewalk that lasted for about 12 minutes in 1965,Case Study
+ We committed more than 21 million to relief organizations across Europe to support those most affected by COVID19,Financial Reports
+44 Department of Energy Hydrogen Power and Fuel Cells National Renewable Energy Laboratory 2013,Case Study
+With catalyst hightest peroxide high concentrations of hydrogen peroxide decomposes into oxygen and superheated steam producing a specific impulse of about 150 s Nitrous oxide has been used as both an oxidizer and as a monopropellant,Case Study
+This way those setting up the automation could work with the application and automatically retrieve data without making changes to CalWIN itself,Case Study
+579 of participants got it right,Case Study
+This style makes it easier to see which cases are being tested,Coding Guidelines
+Based on the forms the agent was using for each case certain combinations of ﬁelds needed to be veriﬁed,Case Study
+Reconciling items are related to timing differences of payments as segment capital expenditures are on an accrual basis while total capital expenditures shown on the Consolidated Statements of Cash Flows are on a cash basis and other miscellaneous differences,Financial Reports
+Categorize errors when throwing exceptions,Coding Guidelines
+Already more than 17 billion investments have occurred in private space flight industry by companies like Google and that is only half of what is being committed and planned for the next few years,Case Study
+ Cash and cash equivalents and marketable securities  Cash and cash equivalents and marketable  Headcount  Headcount was 27742 as of March 31 2018 an increase of 48 yearoveryear,Financial Reports
+This is especially important when writing framework code as its not easy to know in advance what will and wont be private information or protected content,Coding Guidelines
+It is through this aspiration that we came to develop many technological innovations that we now have come to enjoy in everyday life it is through this aspiration that we will surpass even higher boundaries and become a spacefaring civilization,Case Study
+332 No linewrapping Import statements are not linewrapped,Coding Guidelines
+Line lengths up to 80 or 100 characters are acceptable,Coding Guidelines
+AMAZONCOM INC Consolidated Statements of Cash Flows in millions Three Months Ended March 31 Twelve Months Ended March 31 unaudited CASH CASH EQUIVALENTS AND RESTRICTED CASH BEGINNING OF PERIOD OPERATING ACTIVITIES Net income Adjustments to reconcile net income to net cash from operating activities Depreciation and amortization of property and equipment and capitalized content costs operating lease assets and other Stockbased compensation Other operating expense income net Other expense income net Deferred income taxes Changes in operating assets and liabilities Inventories Accounts receivable net and other Accounts payable Accrued expenses and other Unearned revenue Net cash provided by used in operating activities INVESTING ACTIVITIES Purchases of property and equipment Proceeds from property and equipment sales and incentives Acquisitions net of cash acquired and other Sales and maturities of marketable securities Purchases of marketable securities Net cash provided by used in investing activities FINANCING ACTIVITIES Proceeds from longterm debt and other Repayments of longterm debt and other Principal repayments of finance leases Principal repayments of financing obligations Net cash provided by used in financing activities Foreign currency effect on cash cash equivalents and restricted cash Net increase decrease in cash cash equivalents and restricted cash CASH CASH EQUIVALENTS AND RESTRICTED CASH END OF PERIOD SUPPLEMENTAL CASH FLOW INFORMATION Cash paid for interest on longterm debt Cash paid for operating leases Cash paid for interest on finance leases Cash paid for interest on financing obligations Cash paid for income taxes net of refunds Assets acquired under operating leases Property and equipment acquired under finance leases Property and equipment acquired under buildtosuit arrangements 2019 32173  3561  4854 1274 13 135 415 719 401 6384 2932 888 1846   2020 36410  2535 5362 1757 67 565 322 1392 1262 8044 2761 607 3064 2019 17616  12005 16524 5509 205 268 714 2815 6043 7095 235 1133 34360 3290 569 1169 2643 6876 8123 190 351 2214 2 2377 12 8666 23507  286  709 165 2 168 875 2628 436 6795 1367 91 11626 15001 8894 693 667 2600 17 2591 484 8905 27505  290  1029 168 22 305 2408 2166 379 13619 2303 3342 8205 13506 19959 833 817 7649 266 7899 611 5891 23507  858  709 471 142 840 875 10972 3336 2020 23507 10563 22297 7347 244 451 704 2605 6018 6532 1213 1430 39732 20365 4970 1384 31664 39938 25053 2776 3000 10013 43 10280 401 3998 27505 879 3680 650 59 1017 9403 13262 1304 AMAZONCOM INC Consolidated Statements of Operations in millions except per share data unaudited Net product sales Net service sales Total net sales Operating expenses Cost of sales Fulfillment Technology and content Marketing General and administrative Other operating expense income net Total operating expenses Operating income Interest income Interest expense Other income expense net Total nonoperating income expense Income before income taxes Provision for income taxes Equitymethod investment activity net of tax Net income Basic earnings per share Diluted earnings per share Weightedaverage shares used in computation of earnings per share Basic Diluted Three Months Ended March 31 2019 34283  25417 59700  33920 8601 7927 3664 1173 5 55280 4420 183 366 164 19 4401 836 4    3561  724  709  491 502 2020 41841 33611 75452 44257 11531 9325 4828 1452 70 71463 3989 202 402 406 606 3383 744 104 2535 509 501 498 506 AMAZONCOM INC Consolidated Statements of Comprehensive Income in millions unaudited Net income Other comprehensive income loss Foreign currency translation adjustments net of tax of 1 and 21 Net change in unrealized gains losses on availableforsale debt securities Unrealized gains losses net of tax of 0 and 12 Reclassification adjustment for losses gains included in Other income expense net net of tax of 0 and 0 Net unrealized gains losses on availableforsale debt securities Total other comprehensive income loss Comprehensive income Three Months Ended March 31  2019 3561  8 32 1 33 25  3586  2020 2535 874 203  203 1077 1458 AMAZONCOM INC,Financial Reports
+There are no specific rules or even wellestablished conventions for naming annotation types,Coding Guidelines
+Other Please describe ____________________ What is your nationalitycountry of origin,Case Study
+We believe these nonGAAP financial measures are useful to investors both because 1 they allow for greater transparency with respect to key metrics used by management in its financial and operational decisionmaking and 2 they are used by our institutional investors and the analyst community to help them analyze the health of our business,Financial Reports
+Its solar panels had a combination of 3600 solar cells and more than 700 cylindrical lenses to focus sunlight when fully charged its output was more than 2000W,Case Study
+Without this piece of automation an agent using CalWIN would have to take information from relevant forms then look for supporting documents in another system visually and manually verify it and then provide the information to an applying individualComputations and Permutations of the veriﬁcation process There was another requirement,Case Study
+For example sendMessage or stop,Coding Guidelines
+Thirdly it is important to remember that there are other objects in orbit that could collide with the cable,Case Study
+A 16 said they live alone just by himself 3 said they live with 1 more person 5 said with 2 more people 1 said with 3 more people and 7 said more than 4 people are in household,Case Study
+This cadre of space junk includes whole satellites rocket bodies and fragments from explosions in fuel tanks and batteries as well as from the colossal impacts between objects36,Case Study
+12082  14 114 12210  7104 85 94 7283  6 Three Months Ended March 31 2018    736  450  141  2017 664 26   Net change in accounts payable accrued expenses and other current liabilities and other liabilities related to property and equipment additions Change in unsettled repurchases of Class A common stock Priorperiod information has been retrospectively adjusted due to our adoption of ASU No,Financial Reports
+The competition between Soviet Union and United States on striving to reach the moon first was a fierce one,Case Study
+In their Grasshopper Test Project engineers at Space X have been testing vertical landing for the terminal portion of the flight by enabling the rocket to adjust its angle the pitch and yaw of the main engine and to maintain roll with coal gas thrusters,Case Study
+Big wing span as big as a midsized passenger airplane and capacity for up to 8 astronauts,Case Study
+It solved an ancillary issue as well agents routinely opened multiple forms on the screen at once  and only the most recently opened was visible,Case Study
+In the coming years it is expected that such suborbital space tourism will become more affordable safer and easier for a wider range of customers 28,Case Study
+The space station costs more than 100 billion 48 which may increase as agencies attempt to make more habitable space stations for a larger commercial audience,Case Study
+A There were 7 WhiteCaucasian 8 LatinoLatina 18 East Asian 1 Southeast Asian and 3 Middle Eastern Asians,Case Study
+Higher orbital flights evidently require much longer periods of training and are about 250500 times more costly than suborbital flights,Case Study
+Possible alternative sources for rocket propulsion i,Case Study
+Use spaces for indentation We use four 4 space indents for blocks and never tabs,Coding Guidelines
+ When possible keep logging on a single line,Coding Guidelines
+Contribution to Science and Technology  50 Gaining Energy from Outer Space  52 V Experimental Study on Generalizing Space Travel  54 A,Case Study
+Monomethyl hydrazine with nitric acid oxidizer was used in the Space Shuttle orbiter as the orbital maneuvering system and reaction control system51,Case Study
+Another oxidizer nitric acid contains 76 of oxygen and is in the liquid state under the standard temperature and pressure but it is hazardous in handling producing a strong acid while mixing with water and produces harmful byproducts in combustion with a fuel,Case Study
+Q Compared to my peers I tend to like staying at home and be comfortable in familiar places,Case Study
+The term comment always refers to implementation comments,Case Study
+42 K Dismukes Food for Space Flight Human Space Flight 07Apr2002,Case Study
+BeneﬁtsThe county had over 2000 agents using this system which translated to countless hours saved in veriﬁcation time alone,Case Study
+Java library rules There are conventions for using Androids Java libraries and tools,Coding Guidelines
+Working with a legacy application  a noninvasive approach is really the only way Automation Anywheres inhouse experts sat down to design a process that would serve SDCs requirements,Case Study
+62 In the medical field artificial pacemakers designed to control the patients heartbeat from irregularities caused by cardiac conditions are applications of the machinery that controlled the engine pump of a rocket,Case Study
+Includes annual and monthly fees associated with Amazon Prime memberships as well as audiobook digital video digital music ebook and other non AWS subscription services,Financial Reports
+334 No static import for classes Static import is not used for static nested classes,Coding Guidelines
+As required by other sections of this document such as Section 3 Source file structure and Section 33 Import statements,Coding Guidelines
+Since February 2007 the United Nations has also joined the effort through the United Nations Committee on the Peaceful Uses of Outer Space COPUOS,Case Study
+First Quarter 2020 Financial Highlights Three Months Ended March 31 2019 1 2020 YearoverYear  Change  In millions except percentages and per share amounts Revenue Advertising Other Total revenue Total costs and expenses Income from operations Operating margin Provision for income taxes Effective tax rate Net income Diluted earnings per share EPS _________________________ 1 Includes a 30 billion legal expense accrued in the first quarter of 2019 related to our settlement with the US Federal Trade Commission FTC,Financial Reports
+Interest in Space Travel,Case Study
+ WARNING Use when something serious and unexpected happened that is something that will have uservisible consequences but is likely to be recoverable without data loss by performing some explicit action ranging from waiting or restarting an app all the way to redownloading a new version of an app or rebooting the device,Coding Guidelines
+Exceptions 1,Coding Guidelines
+Washington DC Chesham Smithsonian Institution  Combined Academic 2002,Case Study
+ Prime Video and the National Football League NFL announced a multiyear agreement to renew their partnership to deliver a live digital stream of 11 Thursday Night Football games as well as exclusive global streaming rights to one additional regular season game,Financial Reports
+Fluctuations in the value of our investments could significantly contribute to the volatility of OIE in future periods,Financial Reports
+Ion Propulsion for Deep Space  35 2,Case Study
+Our investment in increased pay for our hourly employees and partners during COVID19 will be nearly 700 million through May 16,Financial Reports
+789 of participants got it right,Case Study
+Accessed 26Aug 2013,Case Study
+Dont refactor the logging call out into a method call if its going to cause the string building to take place outside of the if LOCAL_LOG block,Coding Guidelines
+Q What is your primary language,Case Study
+Define class API for private inner classes too It is suggested to declare members in private inner classes as public if they are part of the class API,Coding Guidelines
+ Volunteer Surge a nonprofit consortium is running its online training platform on AWS to recruit train and deploy one million volunteer health workers,Financial Reports
+In almost all cases its inappropriate to catch generic Exception or Throwable preferably not Throwable because it includes Error exceptions,Coding Guidelines
+Homogeneous propellants can consist of either simple base or double base,Case Study
+In general alphabetize methodsvariablessections if such ordering already exists in the surrounding code,Coding Guidelines
+1 2 3 4 5 Compared to my peers I tend to like staying at home and be comfortable in familiar places,Case Study
+3 Source file structure A source file consists of in order 1,Coding Guidelines
+Thus remaining in hovering position the satellite would then lower a cable back to the Earth and be fixed to its anchor station,Case Study
+Although this analogy falters here because the person unlike the Earth the rotating center does not have innate gravity that would pull the ant back toward himself this picture is useful in understanding how the centrifugal force works,Case Study
+The lifters will vary in size from 5 to 20 tons,Case Study
+Part C Comments on Presentation Please circle one Did the talk help you to consider space travel,Case Study
+Examples Example Discussion String unitAbbrev  μs String unitAbbrev  u03bcs  μs String unitAbbrev  u03bcs  Greek letter mu s String unitAbbrev  u03bcs Best perfectly clear even without a comment,Coding Guidelines
+On November 3rd 1957 the Soviet Union launched Sputnik 2 which was carrying a dog called Laika and orbited around the earth for seven days,Case Study
+If a dunning letter is required due to late payment of a bill the bots send one and then notify a human manager about the delinquent account,Case Study
+Fully qualify imports When you want to use class Bar from package foo there are two possible ways to import it  import foo,Coding Guidelines
+21 A Chaikin International Space Programs in National Geographic Encyclopedia of Space Washington DC National Geographic 2005 p 238,Case Study
+Recently they were able to have a rocket that was the size of a 12story building to hover at about 40 meters and return to its landing position11,Case Study
+On October 4th 1959 Luna 3 photographed about 70 of the far side of the moon,Case Study
+Investors are cautioned that there are material limitations associated with the use of nonGAAP financial measures as an analytical tool,Financial Reports
+Such a condition should only be logged by a module that believes that its the most authoritative in that domain to avoid duplicate logging by nonauthoritative components,Coding Guidelines
+Astrium a subsidiary of European Aeronautic Defense and Space Company announced its space tourism project in 2007 and started to develop its rocket plane Mach 3 in 2008,Case Study
+857 of participants got it right,Case Study
+In a single threeinch disk approximately a hundred billion strands of magnetic field are inside,Case Study
+On January 28th 1986 the US space shuttle Challenger exploded right after liftoff 7 crew members,Case Study
+For example there is no line break after the brace if it is followed by else or a comma,Coding Guidelines
+Results indicated the study participants indeed considered space travel to be a personally feasible aspiration when the problems related to cost safety and convenience were resolved,Case Study
+Online,Case Study
+When in doubt be consistent with the surrounding code,Coding Guidelines
+Alternatively the Marshall Space Flight Center supports a rigid lightweight carbon fiber material that is 200 times thicker than todays standard solar sail but weighs about the same as the thinnest materials being tested due to its thousands of tiny holes17 56,Case Study
+Available httpwwwspacecom11353humanspaceflightdeaths50yearsspacemissionshtml,Case Study
+The number of manned space flights has also decreased,Case Study
+Indeed younger children CC participants asked more fundamental questions during the talk such as how and why older participants tended to ask more technical questions,Case Study
+Total revenues and hedging gains for the quarter ended December 31 2019 were 46075 million and 91 million respectively,Financial Reports
+Contribution to Science and Technology In addition to the benefits that technological innovations in rocket science brought to the world research done in outer space has also contributed much to society,Case Study
+The correct composition of such breathable air must be artificially maintained for all crafts suits and habitats in space to sustain human life45,Case Study
+There are three men who are called Fathers of Modern Rocketry Among them the first person who researched rockets for the purpose of space travel was a former school teacher from Russia named Konstantin Tsiolkovsky,Case Study
+___ NASA plans to return to the moon by the year 2020 and build a livable colony there,Case Study
+Simple marker annotations for example Override can be listed on the same line with the language element,Coding Guidelines
+a,Case Study
+The term class is used inclusively to mean an ordinary class enum 2,Case Study
+NonGAAP net income and diluted EPS We define nonGAAP net income as net income excluding certain charges less the related tax effects as applicable and nonGAAP diluted EPS as net income excluding certain charges less the related tax effects as applicable divided by total weighted average outstanding shares on a fullydiluted basis,Financial Reports
+We deliver the worlds most sophisticated Digital Workforce platform making work more human by automating business processes and liberating people,Case Study
+Using Earths Magnetism as Energy Resource Throughout history no one has used the Earths magnetism as the source for propulsion,Case Study
+1  3 In this March 26 2015 file photo US astronaut Scott Kelly right a crew member of a mission to the International Space Station stands behind a window next to his brother Mark Kelly after a news conference in the Russianleased Baikonur cosmodrome in Kazakhstan,Case Study
+Secondly NASA has given the private companies and astronauts a level of ownership for safety and mission decisions to increase the strength of the check and balance system in other words the healthy tension between NASA and private companies and individuals will elicit more challenges to the assumptions of test results procedures processes problem disposition recommendations and planned work p1 34,Case Study
+The amount of propellant exposed to interior combustion flames outlines the surface area giving a direct relationship with thrust,Case Study
+Why Space Travel,Case Study
+However essentially space is not a state of complete void or nothingness but is a physical reality as a continuum which can be reacted against under a certain condition53,Case Study
+In the design of the space elevator this lifter would be the robotic platform with tractiontread rollers that would clamp on to the ribbon and pull the ribbon through,Case Study
+All nonstatic imports in a single block,Coding Guidelines
+Contributing to rocket development as serious science was Sir Isaac Newtons formulation of the laws of gravity and motion,Case Study
+In VASIMAR natural gas is converted into plasma or very hot partially ionized gas by high power radiowaves within a chamber17,Case Study
+a Solid propellant Solid propellant rockets are the most primitive form of rockets,Case Study
+Although all of the other pieces of the space elevator can be constructed using known technology including the robotic lifter anchor station and powerbeaming system the cable needs to be strong enough to withstand the expected forces,Case Study
+In Java you cant escape the creepy feeling  James Gosling Acceptable alternatives in order of preference are  Throw the exception up to the caller of your method,Coding Guidelines
+Propellants are chemical mixtures of a type of fuel and oxygen which burn upon contact,Case Study
+The indent level applies to both code and comments throughout the block,Coding Guidelines
+B,Case Study
+Q Was this talk hard to understand in English,Case Study
+528 Type variable names Each type variable is named in one of two styles  A single capital letter optionally followed by a single numeral such as E T X T2  A name in the form used for classes see Section 522 Class names followed by the capital letter T examples RequestT FooBarT,Coding Guidelines
+Through all seven rounds of the threeday event AWS ensured that over 100 live feeds ran successfully creating a seamless experience for the NFL teams coaches players and their families fans and everyone watching,Financial Reports
+They also powered the upper stages of the Saturn V and Saturn 1B rockets and the Centaur which is the first liquid oxygen and liquid hydrogen rocket in the United States51,Case Study
+Accessed 30Aug 2013,Case Study
+63 J R Wilson Space Program Benefits NASAs Positive Impact on Society NASA 50th Magazine 27Aug2008,Case Study
+Response to COVID19 Pandemic In response to the COVID19 pandemic Facebook is supporting the global public health communitys work to ensure everyone has access to accurate information,Financial Reports
+ Headcount  Headcount was 48268 as of March 31 2020 an increase of 28 yearoveryear,Financial Reports
+This paved the way for the future ventures including the sending of US space missions to the Russian Mir space station,Case Study
+List of 6 private companies capable of sending human into space Company Founder SpaceX Virgin Galatctic Elon Musk Richard Branson SpaceDevSierra Nevada Corp Jim Benson Orbital Sciences David W Thompson Bruce W Ferguson Scott L Webster 1982 Blue Origin Jeff Bezos Bigelow Aerospace Robert Bigelow 2004 1999 2002 2004 1997 Foundation date Funds 100 million personal 20 million from outer investors Personal fortune comes from Virgin group Sierra Nevada Corp of Sparks Nev 11 billion in revenue as publicly traded company Personal fortune come as a founder of Amazoncom Location Hawthorne CA Spaceships Dragon Poway CA Longdon England and Spaceprot NM SpaceShipTwo Dream Chaser Dulles VA Kent WA Cygnus Taurus New Shepard Early 2012 Under development 2011 Mid2012 180 million personal come as owner of the Budget Suites of America hotel chain,Case Study
+More specifically ammonium perchlorate is commonly used as an oxidizer and usually occupies between 60 and 90 of the mass of the propellant,Case Study
+ new int 5 6 and new int  5 6  are both valid Between a type annotation and  or ,Coding Guidelines
+46 Whitespace 461 Vertical Whitespace A single blank line always appears 1,Coding Guidelines
+Other Considerations A,Case Study
+The chart below describes the costs involved in different types of space and nearspace flights,Case Study
+Within each block the imported names appear in ASCII sort order,Coding Guidelines
+Segment Information in millions unaudited Three Months Ended March 31         2019 35812 33525 2287 16192 16282    7696 5473 2223 90     19 836 4 59700 55280 4420 3561  17 9 41 17 60 27 13 100 2020 46127 44815 1312 19106 19504 398 10219 7144 3075 75452 71463 3989 606 744 104 2535 29 18 33 26 61 25 14 100 North America Net sales Operating expenses Operating income International Net sales Operating expenses Operating income loss AWS Net sales Operating expenses Operating income Consolidated Net sales Operating expenses Operating income Total nonoperating income expense Provision for income taxes Equitymethod investment activity net of tax Net income Segment Highlights YY net sales growth North America International AWS Consolidated Net sales mix North America International AWS Consolidated AMAZONCOM INC Consolidated Balance Sheets in millions except per share data ASSETS Current assets Cash and cash equivalents Marketable securities Inventories Accounts receivable net and other Total current assets Property and equipment net Operating leases Goodwill Other assets Total assets LIABILITIES AND STOCKHOLDERS EQUITY Current liabilities Accounts payable Accrued expenses and other Unearned revenue Total current liabilities Longterm lease liabilities Longterm debt Other longterm liabilities Commitments and contingencies Stockholders equity Preferred stock 001 par value Authorized shares  500 Issued and outstanding shares  none Common stock 001 par value Authorized shares  5000 Issued shares  521 and 522 Outstanding shares  498 and 499 Treasury stock at cost Additional paidin capital Accumulated other comprehensive income loss Retained earnings Total stockholders equity Total liabilities and stockholders equity December 31 2019 March 31 2020  unaudited 27201 22091 18857 17836 85985 77779 26279 14739 16456 221238 40056 30791 8864 79711 40300 23437 12518  5 1837  35412 2063  33755 65272 221238 36092  18929 20497 20816 96334 72705 25141 14754 16314 225248  47183  32439 8190 87812 39791 23414 12171  5 1837 33658 986 31220 62060 225248     AMAZONCOM INC,Financial Reports
+Automation Anywheres builtin SMART Automation Technology designed with adaptability in mind would make this doable,Case Study
+In 2005 the 100 kgCosmos 1 was launched from the Volna rocket from a Russian submarine in the Barents Sea,Case Study
+ AWS announced Amazon AppFlow a fully managed service that provides an easy secure way for customers to create and automate bidirectional data flows between AWS and SaaS applications  such as Salesforce Slack Infor Nexus Marketo ServiceNow Trend Micro and Zendesk  without writing custom integration code,Financial Reports
+Figure 1,Case Study
+Additional Javadoc content may also be present as explained in Section 734 Nonrequired Javadoc,Coding Guidelines
+ void setServerPortString value  try  serverPort  IntegerparseIntvalue  catch NumberFormatException e  throw new RuntimeExceptionport   value  is invalid  e   Note The original exception is passed to the constructor for RuntimeException,Coding Guidelines
+Finally superstring theory suggests string as the fundamental element of the spacetime continuum which is presented as the threads of fabric,Case Study
+The Space Shuttle uses the largest solid rocket motors ever built and flown,Case Study
+Online,Case Study
+ Eric Goessens Partnership Development Lead Signify ORGANIZATION PROFILE Signify formerly Philips Lighting is the world leader in lighting for professionals consumers and for the Internet of Things,Case Study
+Carbon nanotubes are microscopic structures that have cylindrical walls,Case Study
+Given the strong engagement growth and related demands on our infrastructure this years capex reduction should be viewed as a deferral into 2021 rather than savings,Financial Reports
+For Q1 2020 the net effect of the loss on equity securities of 814 million and the performance fees reversal of 6 million decreased income tax net income and diluted EPS by 170 million 638 million and 092 respectively,Financial Reports
+Supplemental Financial Information and Business Metrics in millions except employee data unaudited Net Sales Online stores 1 Online stores  YY growth excluding FX Physical stores 2 Physical stores  YY growth excluding FX Thirdparty seller services 3 Thirdparty seller services  YY growth excluding FX Subscription services 4 Subscription services  YY growth excluding FX AWS AWS  YY growth excluding FX Other 5 Other  YY growth excluding FX 6 Stockbased Compensation Expense Cost of sales Fulfillment Technology and content Marketing General and administrative Total stockbased compensation expense Other WW shipping costs WW shipping costs  YY growth WW paid units  YY growth 7 WW seller unit mix   of WW paid units 7 Employees fulltime and parttime excludes contractors  temporary personnel Employees fulltime and parttime excludes contractors  temporary personnel  YY growth ________________________ Q4 2018 Q1 2019 Q2 2019 Q3 2019 Q4 2019 Q1 2020 YY  Change 12 4307  1 16  4330  1  22  4192  1 15  4363  1 14  4401  3  39822  29498  31053  35039  45657  36652 25  4640 8   13383  11141  11962  13212  17446  14479 31  5556 29  9954  10219 33  3906 44  28  3959  26  7430  46  3388  97  28  4957  35  8995  35  3586  45  23 4342  42 7696  42 2716  36 25  4676  39  8381  37  3002  37  31  5235  32  34  4782  41             21  287  750  217  142  1417  9041  23  14  52  647500 24  234  675  209  132  1274  7320  21 10 53 630600 43  360  1077  307  184  1971  8134  36  18  54  653300 39  301  966  298  175  1779  43  286  1007  322  182  1840  41 260 961 332 163 1757 9608  12884  10936 49  32  52  840400 46  22  53  43  22  53  798000 750000 14  12 13  22  23  33  24 NA 8 NA 30 NA 28 NA 33 NA 44 NA 71 11 59 42 24 38 49 NA NA NA 33 NA 1 2 3 4 Includes product sales and digital media content where we record revenue gross,Financial Reports
+Among these oxidizers liquid fluorine produces the highest specific impulse,Case Study
+The energy will then be converted into electricity and stored into a power grind of PGE65,Case Study
+GPS system Parachute System Teflon coated stadium Mechanical arm for surgeries Remote Robotic surgery Fabrics Smart Materials Heart pump IV,Case Study
+667 of participants got it right,Case Study
+Over 150000 100000  150000 What is the number of other people in your household that you support,Case Study
+48 Specific constructs 481 Enum classes After each comma that follows an enum constant a line break is optional,Coding Guidelines
+_F_ Taking vacations to space will be too costly even in the future,Case Study
+Available httpwwwstars4spaceorgBenefitshtml,Case Study
+As mentioned briefly in previous sections the first space tourist passenger Tito paid 20 million to get onboard the Soyuz rocket see Section B1,Case Study
+These letters are translated by the bots into appropriate languages so they can be used throughout the world,Case Study
+ What we are doing for communities  Using our network of Amazon Flex drivers were partnering with food banks across the US to donate delivery services of groceries to serve six million meals through the end of June,Financial Reports
+race and nationality culture primary language gender age level of education field of study or occupation yearly income and number of household as well as the answers to the same 14 trueandfalse questions for comparison see Appendix C and D,Case Study
+ void setServerPortString value  try  serverPort  IntegerparseIntvalue  catch NumberFormatException e   Method is documented to just ignore invalid user input,Coding Guidelines
+Secondly the problem of vibrational harmonics caused by the cables natural resonant frequency as well as vibrational energy caused by the lifter and climbers may overwhelm the systems tolerance,Case Study
+Enable errorprone Error Prone InstallationIDEA  Install Error Prone Compiler plugin from marketplace  In Java Compiler tab select Javac with errorprone as the compiler  Update Additional command line parameters with XepExcludedPathstargetgeneratedtestsources,Coding Guidelines
+Available httpwwwspacecom85416privatecompanieslaunchhumansspacehtml,Case Study
+This digested information was then packaged into another email and distributed to the related internal department so that team could take a closer look at the likely prospects needing legal services,Case Study
+BeneﬁtsThe county had over 2000 agents using this system which translated to countless hours saved in veriﬁcation time alone,Case Study
+Were working to provide accurate and timely information from official government and news sources globally,Financial Reports
+A lot technology developed for space travel are what we use today ii,Case Study
+This is the model that is being developed by the Ad Astra Rocket Company and it is thought that this technology could take astronauts to Mars in approximately 39 days,Case Study
+Solid propellant motors can be used in many ways,Case Study
+For example computedValues or index,Coding Guidelines
+Example switch input  case 1 case 2 prepareOneOrTwo  fall through case 3 handleOneTwoOrThree break default handleLargeNumberinput  Notice that no comment is needed after case 1 only at the end of the statement group,Coding Guidelines
+Tip Extracting a method or local variable may solve the problem without the need to linewrap,Coding Guidelines
+Available httpwwwrenewableenergyworldcomreatechhydrogen,Case Study
+  If value is not a valid number original port number is used,Coding Guidelines
+Methods In order to increase the perception of feasibility of space travel for the general public two educational talks were delivered to 2 different groups of audience over the course of two days,Case Study
+Automating this process as a set of bot tasks freed employees from scanning email or a database for the information needed,Case Study
+III,Case Study
+Current Status of Space Travel  15 1,Case Study
+On September 11th 1997 the US spacecraft Surveyer that was launched on November 1996 reached Mars and entered its highly elliptical orbit to closely investigate the surface of Mars,Case Study
+On April 12th 1961 the Soviet Union launched Vostok 1 carrying Yuri Gagarin and who became the first man in space,Case Study
+53 Y Minami and T Musha Field propulsion systems for space travel Acta Astronautica vol,Case Study
+The hotter the plasma gets the faster will the gas particles move and provide that much more thrust for the VASIMR to travel reaching speeds that are a hundred times more than chemical rockets,Case Study
+This engine won the Ansari XPrize51,Case Study
+In the same way the centrifugal force on the space elevators counterweight platform will keep the elevator system upright and intact,Case Study
+810 of participants got it right,Case Study
+ even do this,Coding Guidelines
+Avoid lengths longer than about 130 or 160 characters including the length of the tag if possible,Coding Guidelines
+THANK YOU FOR COMING AND ENJOY THE TALK,Case Study
+On April 24th 1990 the Hubble Space Telescope one of the largest space telescope built by the US space agency NASA and European Space Agency ESA was launched by the Space Shuttle Discovery,Case Study
+These complexities resulted in hundreds of business rules making process automation imperative,Case Study
+B,Case Study
+This would speed up the decision making which in turn would translate to a seamless experience for the agent and the end user,Case Study
+For example if using fullwidth characters you may choose to wrap the line earlier than where this rule strictly requires,Coding Guidelines
+Now lowercase everything including acronyms then uppercase only the first character of   each word to yield upper camel case or   each word except the first to yield lower camel case 4,Coding Guidelines
+The firm has 13 ideas in the automation pipeline and its RPA team meets regularly to discuss which ideas have merit and the highest return on investment,Case Study
+History of Space Travel  9 1,Case Study
+If value is not a valid number die,Coding Guidelines
+59 Discoveries Solar Sail,Case Study
+Alcohols were used during the early years of rocketry,Case Study
+Log sparingly While logging is necessary it has a negative impact on performance and loses its usefulness if not kept reasonably terse,Coding Guidelines
+VII,Case Study
+482 Variable declarations 4821 One variable per declaration Every variable declaration field or local declares only one variable declarations such as int a b are not used,Coding Guidelines
+5 For more information on our nonGAAP financial measures and a reconciliation of GAAP to nonGAAP measures please see the Reconciliation of GAAP to NonGAAP Results table in this press release,Financial Reports
+For example if he was using Form A and Form B then social security and address ﬁelds needed to be veriﬁed in the supporting documents whereas if he was using Form C and Form B then social security and drivers license details needed to be veriﬁed,Case Study
+This paper examines and analyzes these problems and posits the problem of conventional propulsion system as the central issue to target,Case Study
+NonGAAP Financial Measures To supplement our condensed consolidated financial statements which are prepared and presented in accordance with generally accepted accounting principles in the United States GAAP we use the following nonGAAP financial measures revenue excluding foreign exchange effect advertising revenue excluding foreign exchange effect and free cash flow,Financial Reports
+Online,Case Study
+Solution A noninvasive automation process utilizing the frontend of both applications and a system that completed all veriﬁcation requirements with the press of a single hotkey,Case Study
+In addition please note that the date of this press release is April 29 2020 and any forwardlooking statements contained herein are based on assumptions that we believe to be reasonable as of this date,Financial Reports
+If two are different please indicate both ________________________ What is your highest level of education completed,Case Study
+Although these safety regulations are still in their early stages of development and implementation Sir Richard Bransons Virgin Galactic has already sold more than 625 seats at 200000 per ticket for its 25hour suborbital space tourism flights on SpaceShipTwo1 29 30,Case Study
+ The basic form is always acceptable,Coding Guidelines
+ Rethrow the exception,Coding Guidelines
+Units  References to units mean physical and digital units sold net of returns and cancellations by us and sellers in our stores as well as Amazonowned items sold in other stores,Financial Reports
+On February 20th 1986 the Soviet Union launched the space station Mir,Case Study
+40 M Brown Orbital Debris Mitigation NASA Orbital Debris Program Office 08Jan2013,Case Study
+That oneline change now has a blast radius,Coding Guidelines
+This is considered acceptable as well although the name is nonstandard,Coding Guidelines
+Departing from the use of gunpowder in ancient times modern solid fueled rockets use more powerful fuels49,Case Study
+These laws clearly described in Newtons Philosophiae Naturalis Principia Mathematica are still used today to explain in detail how rockets and propulsion work17 Near the beginning of the 20th century the crude gunpowder rockets lost their significance as weapons and modern rocket science began,Case Study
+This way those setting up the automation could work with the application and automatically retrieve data without making changes to CalWIN itself,Case Study
