@@ -53,10 +53,11 @@ for filename in list_files(dir):
             file_loc.append(filename)
             sentence.append(line)
             label.append(0)
-            intent.append(filename.split("/")[7])
-            file_name.append(filename.split("/")[8])
+            #intent.append(filename.split("/")[7])
+            file_name.append(filename.split("/")[-1])
 
     if filename.endswith(".pdf"):
         df = pd.DataFrame(list(zip(file_loc, file_name, sentence , label)) , columns=["File Location", "File Name", "Sentence" , "Label"])
         df.to_csv('test_data_from_crawler.csv',encoding='utf-8-sig', index=False)
-        #here we load trained model and get predictions on each sentence
+        #here we load trained model and get predictions on each sentence in test_data_from_crawler_pdf
+        model = create_model(data.max_seq_len, bert_ckpt_file)
