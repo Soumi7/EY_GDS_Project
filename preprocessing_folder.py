@@ -12,10 +12,12 @@ from pdfminer.pdfinterp import PDFResourceManager, PDFPageInterpreter
 from pdfminer.pdfpage import PDFPage
 from pdfminer.pdfparser import PDFParser
 from nltk.tokenize import sent_tokenize
-import pandas as pd
 import csv
 import nltk
 # nltk.download('punkt')
+import sklearn
+import numpy as np
+from sklearn.utils import shuffle
 
 csv_data=[]
 file_loc=[]
@@ -74,3 +76,19 @@ for filename in file_names:
 df = pd.DataFrame(list(zip(file_loc, file_name, sentence , label, intent)) , columns=["File Location", "File Name", "Sentence" , "Label", "Intent"])
 df.to_csv('folders.csv',encoding='utf-8-sig', index=False) 
 
+# df = pd.read_csv("folders.csv", encoding="utf-8-sig")
+
+df_compressed =  df[["Sentence","Intent"]]
+
+df_compressed = shuffle(df_compressed)
+
+size =  len(df_compressed)
+
+train_df = df_compressed[:int(np.round(size*.6, 0))]
+test_df = df_compressed[int(np.round(size*.6, 0)) : int(np.round(size*.6, 0))+int(np.round(size*.2, 0))]
+valid_df = df_compressed[int(np.round(size*.6, 0))+int(np.round(size*.2, 0)):]
+
+
+train_df.to_csv('train.csv',encoding='utf-8-sig', index=False) 
+test_df.to_csv('test.csv',encoding='utf-8-sig', index=False) 
+valid_df.to_csv('valid.csv',encoding='utf-8-sig', index=False) 
