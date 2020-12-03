@@ -1,5 +1,6 @@
 import os
-dir="/home/lohith/Desktop/EY Hackathon/EY_GDS_Project/data_to_preprocess"
+#dir="/home/lohith/Desktop/EY Hackathon/EY_GDS_Project/data_to_preprocess"
+dir="/home/soumi/EY_GDS_Project/data_to_preprocess"
 def list_files(dir):
     r = []
     for root, dirs, files in os.walk(dir):
