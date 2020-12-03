@@ -49,19 +49,28 @@ for filename in file_names:
             interpreter = PDFPageInterpreter(rsrcmgr, device)
             for page in PDFPage.create_pages(doc):
                 interpreter.process_page(page)
-        # print(type(output_string.getvalue()))
-        # print(type(output_string))
+
         text=output_string.getvalue()
         data = sent_tokenize(text)
         for line in data:
             res=re.sub('\s+',' ',line)
             line=str(res)
+
+            line = re.sub(r'[^\w\s]', '', line)
+            # print(line)
             file_loc.append(filename)
-            sentence.append(line)
+            try:
+                type(int(line)) != int
+ 
+            except ValueError:
+                sentence.append(line)
+
+                
             label.append(0)
             intent.append(filename.split("/")[7])
             file_name.append(filename.split("/")[8])
 
-    if filename.endswith(".pdf"):
-        df = pd.DataFrame(list(zip(file_loc, file_name, sentence , label, intent)) , columns=["File Location", "File Name", "Sentence" , "Label", "Intent"])
-        df.to_csv('folders.csv',encoding='utf-8-sig', index=False) 
+
+df = pd.DataFrame(list(zip(file_loc, file_name, sentence , label, intent)) , columns=["File Location", "File Name", "Sentence" , "Label", "Intent"])
+df.to_csv('folders.csv',encoding='utf-8-sig', index=False) 
+
