@@ -17,6 +17,37 @@ import pandas as pd
 import csv
 import nltk
 #dir="/home/lohith/Desktop/EY Hackathon/EY_GDS_Project/data_to_preprocess"
+
+################################################################################
+#                            Utility functions                                 #
+################################################################################
+
+def create_model(max_seq_len, bert_ckpt_file):
+
+  with tf.io.gfile.GFile(bert_config_file, "r") as reader:
+      bc = StockBertConfig.from_json_string(reader.read())
+      bert_params = map_stock_config_to_params(bc)
+      bert_params.adapter_size = None
+      bert = BertModelLayer.from_params(bert_params, name="bert")
+        
+  input_ids = keras.layers.Input(shape=(max_seq_len, ), dtype='int32', name="input_ids")
+  bert_output = bert(input_ids)
+
+  print("bert shape", bert_output.shape)
+
+  cls_out = keras.layers.Lambda(lambda seq: seq[:, 0, :])(bert_output)
+  cls_out = keras.layers.Dropout(0.5)(cls_out)
+  logits = keras.layers.Dense(units=768, activation="tanh")(cls_out)
+  logits = keras.layers.Dropout(0.5)(logits)
+  logits = keras.layers.Dense(units=len(classes), activation="softmax")(logits)
+
+  model = keras.Model(inputs=input_ids, outputs=logits)
+  model.build(input_shape=(None, max_seq_len))
+
+  load_stock_weights(bert, bert_ckpt_file)
+        
+  return model
+
 dir="/home/soumi/Downloads/EYintentRepository"
 def list_files(dir):
     r = []
@@ -40,7 +71,7 @@ model = create_model(data.max_seq_len, bert_ckpt_file)
 csv_data=[]
 file_loc=[]
 intent=[]
-sentence =[]
+
 label=[]
 file_names=[]
 file_name=[]
@@ -49,6 +80,7 @@ final_output_csv_ey=[]
 
 for filename in list_files(dir):
     print(filename)
+    sentence =[]
     if filename.endswith('.pdf'):
         output_string = StringIO()
         with open(filename, 'rb') as in_file:
@@ -66,20 +98,14 @@ for filename in list_files(dir):
         for line in data:
             res=re.sub('\s+',' ',line)
             line=str(res)
-            file_loc.append(filename)
-            sentence.append(line)
-            label.append(0)
-            #intent.append(filename.split("/")[7])
-            file_name.append(filename.split("/")[-1])
-
-    if filename.endswith(".pdf"):
-        
+            sentence.append(line)            
+    
         #here we load trained model and get predictions on each sentence in test_data_from_crawler_pdf
-        y_pred = model.predict(data.test_x).argmax(axis=-1)
+        #y_pred = model.predict(data.test_x).argmax(axis=-1)
 
     #sentences = ["we are studying for exam"]
-    sentences= df["text"]
-    pred_tokens = map(tokenizer.tokenize, sentences)
+    
+    pred_tokens = map(tokenizer.tokenize, sentence)
     pred_tokens = map(lambda tok: ["[CLS]"] + tok + ["[SEP]"], pred_tokens)
     pred_token_ids = list(map(tokenizer.convert_tokens_to_ids, pred_tokens))
 
@@ -94,6 +120,12 @@ for filename in list_files(dir):
         intents_we_came_across.append(classes[label])
         print()
 
-df = pd.DataFrame(list(zip(file_loc, file_name, sentence , label)) , columns=["File Location", "File Name", "Sentence" , "Label"])
+    for count in range(len(intents_we_came_across)):
+        file_loc.append(filename)
+        file_name.append(filename.split("/")[-1])
+        intent.append(intents_we_came_across[count])
+    
+
+df = pd.DataFrame(list(zip(file_loc, file_name, intents_we_came_across)) , columns=["File Location", "File Name", "Intent"])
 df.to_csv('test_data_from_crawler.csv',encoding='utf-8-sig', index=False)
     
