@@ -25,12 +25,28 @@ def list_files(dir):
             r.append(os.path.join(root, name))
 
     return r
+###########################################################
+#                        Loading Model                    #
+###########################################################
+
+bert_model_name="uncased_L-12_H-768_A-12"
+
+bert_ckpt_dir = os.path.join("model/", bert_model_name)
+bert_ckpt_file = os.path.join(bert_ckpt_dir, "bert_model.ckpt")
+bert_config_file = os.path.join(bert_ckpt_dir, "bert_config.json")
+
+model = create_model(data.max_seq_len, bert_ckpt_file)
+
 csv_data=[]
 file_loc=[]
+intent=[]
 sentence =[]
 label=[]
 file_names=[]
 file_name=[]
+
+final_output_csv_ey=[]
+
 for filename in list_files(dir):
     print(filename)
     if filename.endswith('.pdf'):
@@ -57,7 +73,27 @@ for filename in list_files(dir):
             file_name.append(filename.split("/")[-1])
 
     if filename.endswith(".pdf"):
-        df = pd.DataFrame(list(zip(file_loc, file_name, sentence , label)) , columns=["File Location", "File Name", "Sentence" , "Label"])
-        df.to_csv('test_data_from_crawler.csv',encoding='utf-8-sig', index=False)
+        
         #here we load trained model and get predictions on each sentence in test_data_from_crawler_pdf
-        model = create_model(data.max_seq_len, bert_ckpt_file)
+        y_pred = model.predict(data.test_x).argmax(axis=-1)
+
+    #sentences = ["we are studying for exam"]
+    sentences= df["text"]
+    pred_tokens = map(tokenizer.tokenize, sentences)
+    pred_tokens = map(lambda tok: ["[CLS]"] + tok + ["[SEP]"], pred_tokens)
+    pred_token_ids = list(map(tokenizer.convert_tokens_to_ids, pred_tokens))
+
+    pred_token_ids = map(lambda tids: tids +[0]*(data.max_seq_len-len(tids)),pred_token_ids)
+    pred_token_ids = np.array(list(pred_token_ids))
+
+    predictions = model.predict(pred_token_ids).argmax(axis=-1)
+
+    intents_we_came_across = set()
+    for text, label in zip(sentences, predictions):
+        print("text:", text, "\nintent:", classes[label])
+        intents_we_came_across.append(classes[label])
+        print()
+
+df = pd.DataFrame(list(zip(file_loc, file_name, sentence , label)) , columns=["File Location", "File Name", "Sentence" , "Label"])
+df.to_csv('test_data_from_crawler.csv',encoding='utf-8-sig', index=False)
+    
