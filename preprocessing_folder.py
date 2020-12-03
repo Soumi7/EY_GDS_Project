@@ -26,7 +26,7 @@ label=[]
 intent=[]
 file_names=[]
 file_name=[]
-# directory="/home/lohith/Desktop/EY Hackathon/EY_GDS_Project/EY_DATA/"
+
 dir="/home/lohith/Desktop/EY Hackathon/EY_GDS_Project/data_to_preprocess"
 def list_files(dir):
     r = []
