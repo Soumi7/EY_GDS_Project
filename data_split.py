@@ -1,11 +1,20 @@
 import sklearn
 import pandas as pd
+import numpy as np
+from sklearn.utils import shuffle
 
-df = pd.read_csv("folders.csv")
+df = pd.read_csv("folders.csv", encoding="utf-8-sig")
 
-train_df = df[:819]
-test_df= df[819:1092]
-valid_df = df[1092:]
+df =  df[["Sentence","Intent"]]
+
+df = shuffle(df)
+
+size =  len(df)
+
+train_df = df[:int(np.round(size*.6, 0))]
+test_df = df[int(np.round(size*.6, 0)) : int(np.round(size*.6, 0))+int(np.round(size*.2, 0))]
+valid_df = df[int(np.round(size*.6, 0))+int(np.round(size*.2, 0)):]
+
 
 train_df.to_csv('train.csv',encoding='utf-8-sig', index=False) 
 test_df.to_csv('test.csv',encoding='utf-8-sig', index=False) 
