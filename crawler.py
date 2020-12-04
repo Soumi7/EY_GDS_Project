@@ -43,6 +43,8 @@ def create_model(max_seq_len, bert_ckpt_file):
 
   print("bert shape", bert_output.shape)
 
+  classes=['Case_Study']
+
   cls_out = keras.layers.Lambda(lambda seq: seq[:, 0, :])(bert_output)
   cls_out = keras.layers.Dropout(0.5)(cls_out)
   logits = keras.layers.Dense(units=768, activation="tanh")(cls_out)
@@ -56,7 +58,12 @@ def create_model(max_seq_len, bert_ckpt_file):
         
   return model
 
-dir="/home/soumi/Downloads/EYintentRepository"
+
+##########################################################################################
+#                                  Mentioning Directory Fn                               #
+##########################################################################################
+
+
 def list_files(dir):
     r = []
     for root, dirs, files in os.walk(dir):
@@ -75,6 +82,8 @@ bert_ckpt_file = os.path.join(bert_ckpt_dir, "bert_model.ckpt")
 bert_config_file = os.path.join(bert_ckpt_dir, "bert_config.json")
 max_seq_len=128
 
+# Creating the model here #
+
 model = create_model(max_seq_len, bert_ckpt_file)
 
 csv_data=[]
@@ -85,9 +94,14 @@ label=[]
 file_names=[]
 file_name=[]
 
-final_output_csv_ey=[]
+#final_output_csv_ey=[]
+
+# Mentioning Directory name, this can be taken as input as well
+
+dir="/home/soumi/Downloads/EY_DATA"
 
 for filename in list_files(dir):
+    #printing file names
     print(filename)
     sentence =[]
     if filename.endswith('.pdf'):
@@ -113,6 +127,8 @@ for filename in list_files(dir):
         #y_pred = model.predict(data.test_x).argmax(axis=-1)
 
     #sentences = ["we are studying for exam"]
+
+    tokenizer = FullTokenizer(vocab_file=os.path.join(bert_ckpt_dir, "vocab.txt"))
     
     pred_tokens = map(tokenizer.tokenize, sentence)
     pred_tokens = map(lambda tok: ["[CLS]"] + tok + ["[SEP]"], pred_tokens)
@@ -121,12 +137,17 @@ for filename in list_files(dir):
     pred_token_ids = map(lambda tids: tids +[0]*(data.max_seq_len-len(tids)),pred_token_ids)
     pred_token_ids = np.array(list(pred_token_ids))
 
+    #################################################################
+    #                 Taking predictions from model                 #
+    #################################################################
+
     predictions = model.predict(pred_token_ids).argmax(axis=-1)
 
-    intents_we_came_across = set()
+    intents_we_came_across = []
     for text, label in zip(sentences, predictions):
         print("text:", text, "\nintent:", classes[label])
-        intents_we_came_across.append(classes[label])
+        if classes[label] not in intents_we_came_across:
+            intents_we_came_across.append(classes[label])
         print()
 
     for count in range(len(intents_we_came_across)):
@@ -135,6 +156,6 @@ for filename in list_files(dir):
         intent.append(intents_we_came_across[count])
     
 
-df = pd.DataFrame(list(zip(file_loc, file_name, intents_we_came_across)) , columns=["File Location", "File Name", "Intent"])
+df = pd.DataFrame(list(zip(file_loc, file_name, intent)) , columns=["File Location", "File Name", "Intent"])
 df.to_csv('test_data_from_crawler.csv',encoding='utf-8-sig', index=False)
     
