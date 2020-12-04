@@ -27,7 +27,7 @@ intent=[]
 file_names=[]
 file_name=[]
 
-dir="/home/lohith/Desktop/EY Hackathon/EY_GDS_Project/data_to_preprocess"
+dir="/home/user/Desktop/EY_GDS_Project-main/data_to_preprocess"
 def list_files(dir):
     r = []
     for root, dirs, files in os.walk(dir):
@@ -59,18 +59,20 @@ for filename in file_names:
             line=str(res)
 
             line = re.sub(r'[^\w\s]', '', line)
+            line = re.sub(r"\d+", "", line)
             # print(line)
-            file_loc.append(filename)
-            try:
-                type(int(line)) != int
+            if len(line) != 0:
+            	file_loc.append(filename)
+            	try:
+                	type(int(line)) != int
  
-            except ValueError:
-                sentence.append(line)
+            	except ValueError:
+                	sentence.append(line)
 
                 
-            label.append(0)
-            intent.append(filename.split("/")[7])
-            file_name.append(filename.split("/")[8])
+            	label.append(0)
+            	intent.append(filename.split("/")[7])
+            	file_name.append(filename.split("/")[-1])
 
 
 df = pd.DataFrame(list(zip(file_loc, file_name, sentence , label, intent)) , columns=["File Location", "File Name", "Sentence" , "Label", "Intent"])
