@@ -1,5 +1,29 @@
+import PyPDF2
+#import pdfminer
+import data_func
+import csv
+import pandas as pd
+from io import StringIO
+import re
+from pdfminer.converter import TextConverter
+from pdfminer.layout import LAParams
+from pdfminer.pdfdocument import PDFDocument
+from pdfminer.pdfinterp import PDFResourceManager, PDFPageInterpreter
+from pdfminer.pdfpage import PDFPage
+from pdfminer.pdfparser import PDFParser
+from nltk.tokenize import sent_tokenize
+import pandas as pd
+import csv
+import nltk
+import tensorflow as tf
+from tensorflow import keras
 
-white True:
+import bert
+from bert import BertModelLayer
+from bert.loader import StockBertConfig, map_stock_config_to_params, load_stock_weights
+from bert.tokenization.bert_tokenization import FullTokenizer
+
+while True:
     n = input("Enter query")
     if n == "EXIT":
         print("Exiting")
