@@ -69,7 +69,6 @@ def list_files(dir):
     for root, dirs, files in os.walk(dir):
         for name in files:
             r.append(os.path.join(root, name))
-
     return r
 ###########################################################
 #                        Loading Model                    #
