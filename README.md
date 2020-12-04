@@ -29,4 +29,16 @@
   - Download this complete folder.
 
 - crawler.py :
-  - Crawls through the complete repository.
+  - Crawls through any given content repository.
+  - Loads the trained model.
+  - For each file, it predicts the intents of the file.
+  - It stores the filename, file location and unique intents in a csv.
+
+- query_search.py :
+  - You can enter as many number of queries you want.
+  - For each query sentence, our model predicts its intent or intents.
+  - We look through the csv of files and respectivey intents generated in the crawling process.
+  - If our query sentence's intent matches with intent of any file, we display that file.
+  - In this way, we display all the files which have the intents in the query sentence.
+
+## Why is this is an intelligent search?
