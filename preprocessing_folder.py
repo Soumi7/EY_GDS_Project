@@ -73,9 +73,9 @@ for filename in file_names:
 
 
                 
-            	label.append(0)
-            	intent.append(filename.split("/")[7])
-            	file_name.append(filename.split("/")[-1])
+            label.append(0)
+            intent.append(filename.split("/")[7])
+            file_name.append(filename.split("/")[-1])
 
 
 df = pd.DataFrame(list(zip(file_loc, file_name, sentence , label, intent)) , columns=["File Location", "File Name", "Sentence" , "Label", "Intent"])
