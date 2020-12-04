@@ -61,7 +61,7 @@ for filename in file_names:
 
             line=str(res)
             line = re.sub(r'[^\w\s]', '', line)
-<<<<<<< HEAD
+
             line = re.sub(r"(^|W)\d+", "", line)
 
             file_loc.append(filename)
@@ -72,18 +72,8 @@ for filename in file_names:
             except ValueError:
                 if len(line) > 20:
                     sentence.append(line)
-=======
-            line = re.sub(r"\d+", "", line)
-            # print(line)
-            if len(line) != 0:
-            	file_loc.append(filename)
-            	try:
-                	type(int(line)) != int
- 
-            	except ValueError:
-                	sentence.append(line)
 
->>>>>>> 868f440fe0f0e3c0119719d2b0777f51c04c7d31
+
                 
             	label.append(0)
             	intent.append(filename.split("/")[7])
