@@ -1,5 +1,6 @@
 # EY_GDS_Project
 
+
 ### Repository structure : 
 
 - data_to_preprocess :
@@ -42,3 +43,13 @@
   - In this way, we display all the files which have the intents in the query sentence.
 
 ## Why is this is an intelligent search?
+
+  - Because we recognise the intents of the query sentence first.
+  - Then we check if some files have the same intents.
+  - For each file in the repo, we have already predicted multiple intents.
+
+
+## Steps to execute :
+
+- Create a new conda envioronment.
+- Install the dependancies with ```pip install -m requirements.txt```.
