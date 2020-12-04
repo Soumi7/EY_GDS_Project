@@ -27,7 +27,7 @@ intent=[]
 file_names=[]
 file_name=[]
 
-dir="/home/user/Desktop/EY_GDS_Project-main/data_to_preprocess"
+dir="/home/lohith/Desktop/EY Hackathon/EY_GDS_Project/data_to_preprocess"
 def list_files(dir):
     r = []
     for root, dirs, files in os.walk(dir):
@@ -62,6 +62,7 @@ for filename in file_names:
             line=str(res)
             line = re.sub(r'[^\w\s]', '', line)
             line = re.sub(r'\b(?!(\D\S*|[12][0-9]{3})\b)\S+\b', '', line)
+            line = line.strip()
             file_loc.append(filename)
 
             try:
