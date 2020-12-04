@@ -82,6 +82,8 @@ for filename in file_names:
 df = pd.DataFrame(list(zip(file_loc, file_name, sentence , label, intent)) , columns=["File Location", "File Name", "Sentence" , "Label", "Intent"])
 df.to_csv('folders.csv',encoding='utf-8-sig', index=False) 
 
+print(len(label))
+
 # df = pd.read_csv("folders.csv", encoding="utf-8-sig")
 
 df_compressed =  df[["Sentence","Intent"]]
@@ -90,7 +92,7 @@ df_compressed =  df_compressed.rename({'Sentence':'text', "Intent":"intent"}, ax
 
 df_compressed = shuffle(df_compressed)
 
-
+print(df["Intent"].value_counts())
 
 size =  len(df_compressed)
 
