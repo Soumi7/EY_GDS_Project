@@ -54,23 +54,29 @@ for filename in file_names:
 
         text=output_string.getvalue()
         data = sent_tokenize(text)
+
         for line in data:
             res=re.sub('\s+',' ',line)
-            line=str(res)
 
+
+            line=str(res)
             line = re.sub(r'[^\w\s]', '', line)
-            # print(line)
+            line = re.sub(r'\b(?!(\D\S*|[12][0-9]{3})\b)\S+\b', '', line)
+            line = line.strip()
             file_loc.append(filename)
+
             try:
                 type(int(line)) != int
  
             except ValueError:
-                sentence.append(line)
+                if len(line) > 20:
+                    sentence.append(line)
+
 
                 
             label.append(0)
             intent.append(filename.split("/")[7])
-            file_name.append(filename.split("/")[8])
+            file_name.append(filename.split("/")[-1])
 
 
 df = pd.DataFrame(list(zip(file_loc, file_name, sentence , label, intent)) , columns=["File Location", "File Name", "Sentence" , "Label", "Intent"])
