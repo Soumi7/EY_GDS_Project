@@ -61,9 +61,7 @@ for filename in file_names:
 
             line=str(res)
             line = re.sub(r'[^\w\s]', '', line)
-
-            line = re.sub(r"(^|W)\d+", "", line)
-
+            line = re.sub(r'\b(?!(\D\S*|[12][0-9]{3})\b)\S+\b', '', line)
             file_loc.append(filename)
 
             try:
