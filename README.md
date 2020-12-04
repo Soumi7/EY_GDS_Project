@@ -18,6 +18,7 @@
 
 - API_access_code_snippet :
   - Remove, but not sure
+  - Sharepoint API client
 
 - preprocessing_folder.py :
   - Preprocesses the data_to_preprocess folder to extract training sentences from the folders.
