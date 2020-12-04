@@ -82,7 +82,7 @@ for filename in file_names:
 df = pd.DataFrame(list(zip(file_loc, file_name, sentence , label, intent)) , columns=["File Location", "File Name", "Sentence" , "Label", "Intent"])
 df.to_csv('folders.csv',encoding='utf-8-sig', index=False) 
 
-print(len(label))
+print(len(la))
 
 # df = pd.read_csv("folders.csv", encoding="utf-8-sig")
 
