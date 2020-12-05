@@ -23,6 +23,8 @@ We have a created a solution for both the points!
 - It stores all this information in <insert csv name>
 - We have an intelligent query search which undertands the intents associated with a query sentence and provides the file names and location of the intents of this query.
 
+## Dataset
+
 ### External libraries and frameworks used :
 
 - pdfminer.six : To extract text from pdfs.
@@ -32,6 +34,12 @@ We have a created a solution for both the points!
 - os - For crawling through repository.
 - sklearn - 
 - nltk
+
+## Portability
+
+- We give the notebook access to google drive using an API access token.
+- In the same way, we can connect share point.
+- For the folder you want to crawl, just provide the path of the folder like we have for our google drive folder.
 
 ### Repository structure : 
 
