@@ -119,34 +119,34 @@ for filename in file_names:
                 file_name.append(filename.split("/")[-1])
 
     if filename.endswith('.docx'):
-		output_string = StringIO()
-		with open(filename, 'rb') as in_file:
-			doc = docx.Document(in_file)
-			fullText = []
-			for para in doc.paragraphs:
-				fullText.append(para.text)
-			fullText='\n'.join(fullText)
+            output_string = StringIO()
+            with open(filename, 'rb') as in_file:
+                doc = docx.Document(in_file)
+                fullText = []
+                for para in doc.paragraphs:
+                    fullText.append(para.text)
+                fullText='\n'.join(fullText)
 
-		text=str(fullText)
-		data = sent_tokenize(text)
-		for line in data:
-			res=re.sub('\s+',' ',line)
-			line=str(res)
+            text=str(fullText)
+            data = sent_tokenize(text)
+            for line in data:
+                res=re.sub('\s+',' ',line)
+                line=str(res)
 
-			line = re.sub(r'[^\w\s]', '', line)
-			line = re.sub(r"\d+", "", line)
-			# print(line)
-			if len(line) != 0:
-				file_loc.append(filename)
-				try:
-					type(int(line)) != int
- 
-				except ValueError:
-					sentence.append(line)
+                line = re.sub(r'[^\w\s]', '', line)
+                line = re.sub(r"\d+", "", line)
+                # print(line)
+                if len(line) != 0:
+                    file_loc.append(filename)
+                    try:
+                        type(int(line)) != int
+    
+                    except ValueError:
+                        sentence.append(line)
 
-				
-				intent.append(filename.split("/")[-2])
-				file_name.append(filename.split("/")[-1])
+                    
+                    intent.append(filename.split("/")[-2])
+                    file_name.append(filename.split("/")[-1])
 
 df = pd.DataFrame(list(zip(file_loc, file_name, sentence , intent)) , columns=["File Location", "File Name", "Sentence" , "Intent"])
 df.to_csv('folders.csv',encoding='utf-8-sig', index=False) 
