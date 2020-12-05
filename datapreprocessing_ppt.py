@@ -31,7 +31,7 @@ intent=[]
 file_names=[]
 file_name=[]
 
-dir="/home/user/Desktop/EY_GDS_Project-main/data_to_preprocess"
+dir="/home/lohith/Desktop/EY Hackathon/EY_GDS_Project/data_to_preprocess"
 def list_files(dir):
 	r = []
 	for root, dirs, files in os.walk(dir):
@@ -45,7 +45,8 @@ for i in list_files(dir):
 
 for filename in file_names:
 	# print(filename)
-	if filename.endswith('.pptx'):
+	if filename.endswith('.pptx') :
+		print(filename)
 		output_string = StringIO()
 		with open(filename, 'rb') as in_file:
 			prs = Presentation(in_file)
@@ -80,7 +81,7 @@ for filename in file_names:
 
 				
 				label.append(0)
-				intent.append(filename.split("/")[-1])
+				intent.append(filename.split("/")[-2])
 				file_name.append(filename.split("/")[-1])
 
 
@@ -104,7 +105,7 @@ test_df = df_compressed[int(np.round(size*.6, 0)) : int(np.round(size*.6, 0))+in
 valid_df = df_compressed[int(np.round(size*.6, 0))+int(np.round(size*.2, 0)):]
 
 
-train_df.to_csv('train.csv',encoding='utf-8-sig', index=False) 
-test_df.to_csv('test.csv',encoding='utf-8-sig', index=False) 
-valid_df.to_csv('valid.csv',encoding='utf-8-sig', index=False) 
+train_df.to_csv('train_ppt.csv',encoding='utf-8-sig', index=False) 
+test_df.to_csv('test_ppt.csv',encoding='utf-8-sig', index=False) 
+valid_df.to_csv('valid_ppt.csv',encoding='utf-8-sig', index=False) 
 
