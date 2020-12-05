@@ -1,5 +1,37 @@
-# EY_GDS_Project
+# EY_GDS_Project : Prototype submission for Intent based search and Classification
 
+## Hackpions – EY GDS Hackathon
+
+## Theme
+
+Intent based search and Classification
+
+## Problem statement
+
+- Propose and design an algorithm that can periodically crawl content repositories of files (shared file or SharePoint) to determine the properties (metadata) and the content of the files and match them against some predefined intents. Example: reusable assets, policy documents and solution accelerators
+
+- List and match metadata of newly added items and add metadata of the matching items to a tracking database with an index and matched pre-defined intents
+
+We have a created a solution for both the points!
+
+## Solution
+
+### Features
+
+- Retrainable on new data.
+- Can crawl through all files and sub-folders in a parent repository and generate intents for each specific file.
+- It stores all this information in <insert csv name>
+- We have an intelligent query search which undertands the intents associated with a query sentence and provides the file names and location of the intents of this query.
+
+### External libraries and frameworks used :
+
+- pdfminer.six : To extract text from pdfs.
+- bert-for-tf2 : For fine tuning the Bert model with our training data. 
+- tensorflow : Using keras to create a custom model
+- pandas - 
+- os - For crawling through repository.
+- sklearn - 
+- nltk
 
 ### Repository structure : 
 
@@ -54,3 +86,5 @@
 
 - Create a new conda envioronment.
 - Install the dependancies with ```pip install -m requirements.txt```.
+
+
