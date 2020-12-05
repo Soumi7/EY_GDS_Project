@@ -6,13 +6,10 @@ dict1 =  defaultdict(int)
 for names in list1:
     dict1[names] += 1
 
-total_intents = sum(dict1.values())
+total_intents = sum(dict1.values()) 
 
 final_list_of_intents = []
 
-# print(total_intents)
-
-# print(list(dict1.keys()))
 
 for intents in list(dict1.keys()):
     if (dict1[intents] / total_intents) >=  0.3:
