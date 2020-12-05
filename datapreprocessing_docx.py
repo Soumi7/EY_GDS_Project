@@ -30,7 +30,7 @@ intent=[]
 file_names=[]
 file_name=[]
 
-dir="/home/user/Desktop/EY_GDS_Project-main/data_to_preprocess"
+dir="/home/lohith/Desktop/EY Hackathon/EY_GDS_Project/data_to_preprocess/Coding Guidelines"
 def list_files(dir):
 	r = []
 	for root, dirs, files in os.walk(dir):
@@ -45,6 +45,7 @@ for i in list_files(dir):
 for filename in file_names:
 	# print(filename)
 	if filename.endswith('.docx'):
+		print(filename)
 		output_string = StringIO()
 		with open(filename, 'rb') as in_file:
 			doc = docx.Document(in_file)
@@ -72,30 +73,30 @@ for filename in file_names:
 
 				
 				label.append(0)
-				intent.append(filename.split("/")[-1])
+				intent.append(filename.split("/")[-2])
 				file_name.append(filename.split("/")[-1])
 
 
 df = pd.DataFrame(list(zip(file_loc, file_name, sentence , label, intent)) , columns=["File Location", "File Name", "Sentence" , "Label", "Intent"])
 df.to_csv('Docx.csv',encoding='utf-8-sig', index=False) 
 
-# df = pd.read_csv("folders.csv", encoding="utf-8-sig")
+# # df = pd.read_csv("folders.csv", encoding="utf-8-sig")
 
-df_compressed =  df[["Sentence","Intent"]]
+# df_compressed =  df[["Sentence","Intent"]]
 
-df_compressed =  df_compressed.rename({'Sentence':'text', "Intent":"intent"}, axis=1) 
+# df_compressed =  df_compressed.rename({'Sentence':'text', "Intent":"intent"}, axis=1) 
 
-df_compressed = shuffle(df_compressed)
-
-
-
-size =  len(df_compressed)
-
-train_df = df_compressed[:int(np.round(size*.6, 0))]
-test_df = df_compressed[int(np.round(size*.6, 0)) : int(np.round(size*.6, 0))+int(np.round(size*.2, 0))]
-valid_df = df_compressed[int(np.round(size*.6, 0))+int(np.round(size*.2, 0)):]
+# df_compressed = shuffle(df_compressed)
 
 
-train_df.to_csv('train.csv',encoding='utf-8-sig', index=False) 
-test_df.to_csv('test.csv',encoding='utf-8-sig', index=False) 
-valid_df.to_csv('valid.csv',encoding='utf-8-sig', index=False)
+
+# size =  len(df_compressed)
+
+# train_df = df_compressed[:int(np.round(size*.6, 0))]
+# test_df = df_compressed[int(np.round(size*.6, 0)) : int(np.round(size*.6, 0))+int(np.round(size*.2, 0))]
+# valid_df = df_compressed[int(np.round(size*.6, 0))+int(np.round(size*.2, 0)):]
+
+
+# train_df.to_csv('train.csv',encoding='utf-8-sig', index=False) 
+# test_df.to_csv('test.csv',encoding='utf-8-sig', index=False) 
+# valid_df.to_csv('valid.csv',encoding='utf-8-sig', index=False)
