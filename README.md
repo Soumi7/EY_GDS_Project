@@ -1,5 +1,7 @@
 # EY_GDS_Project : Prototype submission for Intent based search and Classification
 
+![img](https://github.com/Soumi7/EY_GDS_Project/blob/main/images/im_ey_1.png)
+
 ## Hackpions – EY GDS Hackathon
 
 ## Theme
