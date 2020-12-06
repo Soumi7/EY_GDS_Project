@@ -22,7 +22,8 @@ nltk.download('punkt')
 
 from pptx import Presentation
 
-
+import docx2txt
+import docx
 
 csv_data=[]
 file_loc=[]
