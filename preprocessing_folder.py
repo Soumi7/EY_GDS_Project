@@ -78,12 +78,12 @@ for filename in file_names:
                 if len(line) > 10:
                     sentence.append(line)
 
-            intent.append(filename.split("/")[7])
+            intent.append(filename.split("/")[-2])
             file_name.append(filename.split("/")[-1])
 
     # if filename.endswith('.pptx'):
     if filename.endswith('.pptx') :
-        print(filename)
+        # print(filename)
         output_string = StringIO()
         with open(filename, 'rb') as in_file:
             prs = Presentation(in_file)
