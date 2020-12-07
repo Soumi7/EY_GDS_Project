@@ -51,10 +51,6 @@ We have a created a solution for both the points!
   - Then type ```python3 preprocessing_folder.py```
   - Executing preprocessing_folder.py will extract sentences from the files in this folder and store them with the respective intents.
 
-- EY_DATA : 
-  - Has some Case_Study pdfs by provided by EY.
-  - Can be removed if required.
-
 - API_access_code_snippet :
   - Sharepoint API client
 
