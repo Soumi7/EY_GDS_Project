@@ -4,7 +4,7 @@ import openpyxl
 #os.chdir() 
 
 import pandas as pd 
-file = 'data_to_preprocess/ProjectManagement/Excel-Project-Tracker.xlsx'
+file = '/home/lohith/Desktop/EY Hackathon/EY_GDS_Project/data_to_preprocess/Project Management/Excel-Project-Tracker.xlsx'
 # Read and store content 
 # of an excel file  
 read_file = pd.read_excel (file) 
@@ -20,7 +20,7 @@ read_file.to_csv ("Excel.csv",
 df = pd.DataFrame(pd.read_csv("Excel.csv")) 
   
 # show the dataframe 
-df 
+print(df) 
 # data = pd.ExcelFile(file)
 # print(data.sheet_names) 
 
