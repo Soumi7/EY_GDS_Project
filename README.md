@@ -32,7 +32,7 @@ We have a created a solution for both the points!
 - pdfminer.six : To extract text from pdfs.
 - bert-for-tf2 : For fine tuning the Bert model with our training data. 
 - tensorflow : Using keras to create a custom model
-- pandas - 
+- pandas - for data analysis
 - os - For crawling through repository.
 - sklearn - 
 - nltk
@@ -55,18 +55,14 @@ We have a created a solution for both the points!
   - Has some Case_Study pdfs by provided by EY.
   - Can be removed if required.
 
-- Test_pdfs :
-  - Remove this?
-
 - API_access_code_snippet :
-  - Remove, but not sure
   - Sharepoint API client
 
 - preprocessing_folder.py :
   - Preprocesses the data_to_preprocess folder to extract training sentences from the folders.
   - Creates a csv file of the sentences and their respective intents.
 
-- EY_intent_classification_Working_1.ipynb :
+- Crawler_and_intelligent_query_search.ipynb :
   - Uses train.csv, test.csv and valid.csv to fine tune BERT.
   - Shows the test accuracies and metrics.
   - The model contains the new updated checkpoints now.
@@ -95,6 +91,6 @@ We have a created a solution for both the points!
 ## Steps to execute :
 
 - Create a new conda envioronment.
-- Install the dependancies with ```pip install -m requirements.txt```.
+- Install the dependancies with ```pip install -r requirements.txt```.
 
 
