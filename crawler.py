@@ -16,6 +16,14 @@ nltk.download('punkt')
 import sklearn
 import numpy as np
 from sklearn.utils import shuffle
+import bert
+from bert.tokenization.bert_tokenization import FullTokenizer
+import numpy as np
+import tensorflow as tf
+
+
+new_model = tf.keras.models.load_model('/content/drive/MyDrive/EY_DATA/saved_model/ey_model2')
+classes = ['Research', 'Coding Guidelines', 'Case Study', 'Financial Reports', 'CompanyDetails', 'AuditProposals']
 
 def list_files(dir):
     r = []
