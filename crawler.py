@@ -71,6 +71,36 @@ for filename in list_files(dir):
                     line = line[:100]
                     sentence.append(line) 
 
+        tokenizer = FullTokenizer(vocab_file= "vocab.txt")
+
+        pred_tokens = map(tokenizer.tokenize, sentence)
+        pred_tokens = map(lambda tok: ["[CLS]"] + tok + ["[SEP]"], pred_tokens)
+        pred_token_ids = list(map(tokenizer.convert_tokens_to_ids, pred_tokens))
+
+        max_seq_len=128
+
+        pred_token_ids = map(lambda tids: tids +[0]*(max_seq_len-len(tids)),pred_token_ids)
+        pred_token_ids = np.array(list(pred_token_ids))
+
+            #################################################################
+        #                 Taking predictions from model                 #
+        #################################################################
+
+        predictions = new_model.predict(pred_token_ids).argmax(axis=-1)
+
+        intents_we_came_across = []
+
+        for text, label in zip(sentence, predictions):
+            if classes[label] not in intents_we_came_across:
+                intents_we_came_across.append(classes[label])
+
+
+        df_intents =  pd.DataFrame(intents_we_came_across)
+
+        file_loc.append(filename)
+        file_name.append(filename.split("/")[-1])
+        intent.append((df_intents[0].value_counts().keys().tolist())[0])
+
 
     if filename.endswith('.pptx') :
         output_string = StringIO()
@@ -107,37 +137,6 @@ for filename in list_files(dir):
                         line = line[:100]
                         sentence.append(line)
 
-            
-
-    if filename.endswith('.docx'):
-            output_string = StringIO()
-            with open(filename, 'rb') as in_file:
-                doc = docx.Document(in_file)
-                fullText = []
-                for para in doc.paragraphs:
-                    fullText.append(para.text)
-                fullText='\n'.join(fullText)
-
-            text=str(fullText)
-            data = sent_tokenize(text)
-            for line in data:
-                res=re.sub('\s+',' ',line)
-                line=str(res)
-
-                line = re.sub(r'[^\w\s]', '', line)
-                line = re.sub(r"\d+", "", line)
-                # print(line)
-                if len(line) != 0:
-                    file_loc.append(filename)
-                    try:
-                        type(int(line)) != int
-    
-                    except ValueError:
-                        if len(line) > 10:
-                            line = line[:100]
-                            sentence.append(line)
-
-
         tokenizer = FullTokenizer(vocab_file= "vocab.txt")
 
         pred_tokens = map(tokenizer.tokenize, sentence)
@@ -149,7 +148,7 @@ for filename in list_files(dir):
         pred_token_ids = map(lambda tids: tids +[0]*(max_seq_len-len(tids)),pred_token_ids)
         pred_token_ids = np.array(list(pred_token_ids))
 
-         #################################################################
+            #################################################################
         #                 Taking predictions from model                 #
         #################################################################
 
@@ -163,11 +162,70 @@ for filename in list_files(dir):
 
 
         df_intents =  pd.DataFrame(intents_we_came_across)
-        
+
         file_loc.append(filename)
         file_name.append(filename.split("/")[-1])
-        intent = (df_intents[0].value_counts().keys().tolist())[0]
+        intent.append((df_intents[0].value_counts().keys().tolist())[0])
             
 
-        df = pd.DataFrame(list(zip(file_loc, file_name, intent)) , columns=["File Location", "File Name", "Intent"])
-        df.to_csv('test_data_from_crawler.csv',encoding='utf-8-sig', index=False)
+    if filename.endswith('.docx'):
+        output_string = StringIO()
+        with open(filename, 'rb') as in_file:
+            doc = docx.Document(in_file)
+            fullText = []
+            for para in doc.paragraphs:
+                fullText.append(para.text)
+            fullText='\n'.join(fullText)
+
+        text=str(fullText)
+        data = sent_tokenize(text)
+        for line in data:
+            res=re.sub('\s+',' ',line)
+            line=str(res)
+
+            line = re.sub(r'[^\w\s]', '', line)
+            line = re.sub(r"\d+", "", line)
+            # print(line)
+            if len(line) != 0:
+                file_loc.append(filename)
+                try:
+                    type(int(line)) != int
+
+                except ValueError:
+                    if len(line) > 10:
+                        line = line[:100]
+                        sentence.append(line)
+
+        tokenizer = FullTokenizer(vocab_file= "vocab.txt")
+
+        pred_tokens = map(tokenizer.tokenize, sentence)
+        pred_tokens = map(lambda tok: ["[CLS]"] + tok + ["[SEP]"], pred_tokens)
+        pred_token_ids = list(map(tokenizer.convert_tokens_to_ids, pred_tokens))
+
+        max_seq_len=128
+
+        pred_token_ids = map(lambda tids: tids +[0]*(max_seq_len-len(tids)),pred_token_ids)
+        pred_token_ids = np.array(list(pred_token_ids))
+
+            #################################################################
+        #                 Taking predictions from model                 #
+        #################################################################
+
+        predictions = new_model.predict(pred_token_ids).argmax(axis=-1)
+
+        intents_we_came_across = []
+
+        for text, label in zip(sentence, predictions):
+            if classes[label] not in intents_we_came_across:
+                intents_we_came_across.append(classes[label])
+
+
+        df_intents =  pd.DataFrame(intents_we_came_across)
+
+        file_loc.append(filename)
+        file_name.append(filename.split("/")[-1])
+        intent.append((df_intents[0].value_counts().keys().tolist())[0])
+        
+
+df = pd.DataFrame(list(zip(file_loc, file_name, intent)) , columns=["File Location", "File Name", "Intent"])
+df.to_csv('test_data_from_crawler.csv',encoding='utf-8-sig', index=False)
