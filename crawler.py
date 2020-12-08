@@ -133,9 +133,9 @@ for filename in list_files(dir):
                         type(int(line)) != int
     
                     except ValueError:
-                if len(line) > 10:
-                    line = line[:100]
-                    sentence.append(line)
+                        if len(line) > 10:
+                            line = line[:100]
+                            sentence.append(line)
 
 
         tokenizer = FullTokenizer(vocab_file= "vocab.txt")
