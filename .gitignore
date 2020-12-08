@@ -138,9 +138,9 @@ dmypy.json
 cython_debug/
 
 #Saved models
-*.pb
-*.index
-*.data-00000-of-00001
+# *.pb
+# *.index
+# *.data-00000-of-00001
 
 # Zip files
 *.zip
