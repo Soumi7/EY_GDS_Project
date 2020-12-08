@@ -2,6 +2,10 @@
 
 ![img](https://github.com/Soumi7/EY_GDS_Project/blob/main/images/im_ey_1.png)
 
+### Presentation Link: https://youtu.be/41fjEdk7ymk
+
+### Demo Link: https://youtu.be/1AIFkLv90WY
+
 ## Hackpions – EY GDS Hackathon
 
 ## Theme
