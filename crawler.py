@@ -1,26 +1,34 @@
 import os
-import csv
-import pandas as pd
-from io import StringIO
 import re
+import PyPDF2
+import csv
+import csv
+import nltk
+import sklearn
+import numpy as np
+import pandas as pd
+from sklearn.utils import shuffle
+from io import StringIO
+
 from pdfminer.converter import TextConverter
 from pdfminer.layout import LAParams
 from pdfminer.pdfdocument import PDFDocument
 from pdfminer.pdfinterp import PDFResourceManager, PDFPageInterpreter
 from pdfminer.pdfpage import PDFPage
 from pdfminer.pdfparser import PDFParser
+
 from nltk.tokenize import sent_tokenize
-import csv
-import nltk
 nltk.download('punkt')
-import sklearn
-import numpy as np
-from sklearn.utils import shuffle
+
+from pptx import Presentation
+
+import docx2txt
+import docx
+
 import bert
 from bert.tokenization.bert_tokenization import FullTokenizer
 import numpy as np
 import tensorflow as tf
-
 
 new_model = tf.keras.models.load_model('/content/drive/MyDrive/EY_DATA/saved_model/ey_model2')
 classes = ['Research', 'Coding Guidelines', 'Case Study', 'Financial Reports', 'CompanyDetails', 'AuditProposals']
@@ -35,7 +43,7 @@ def list_files(dir):
 
     return r
 
-dir="/content/drive/MyDrive/EY_DATA/data_to_preprocess/Company Details"
+dir="/content/drive/MyDrive/EY_DATA/data_to_preprocess"
 
 csv_data=[]
 file_loc=[]
@@ -69,7 +77,6 @@ for filename in list_files(dir):
             line = re.sub(r'[^\w\s]', '', line)
             line = re.sub(r'\b(?!(\D\S*|[12][0-9]{3})\b)\S+\b', '', line)
             line = line.strip()
-            file_loc.append(filename)
 
             try:
                 type(int(line)) != int
@@ -79,7 +86,7 @@ for filename in list_files(dir):
                     line = line[:100]
                     sentence.append(line) 
 
-        tokenizer = FullTokenizer(vocab_file= "vocab.txt")
+        tokenizer = FullTokenizer(vocab_file= "/content/drive/MyDrive/EY_DATA/vocab.txt")
 
         pred_tokens = map(tokenizer.tokenize, sentence)
         pred_tokens = map(lambda tok: ["[CLS]"] + tok + ["[SEP]"], pred_tokens)
@@ -89,10 +96,6 @@ for filename in list_files(dir):
 
         pred_token_ids = map(lambda tids: tids +[0]*(max_seq_len-len(tids)),pred_token_ids)
         pred_token_ids = np.array(list(pred_token_ids))
-
-            #################################################################
-        #                 Taking predictions from model                 #
-        #################################################################
 
         predictions = new_model.predict(pred_token_ids).argmax(axis=-1)
 
@@ -105,6 +108,7 @@ for filename in list_files(dir):
 
         df_intents =  pd.DataFrame(intents_we_came_across)
 
+        
         file_loc.append(filename)
         file_name.append(filename.split("/")[-1])
         intent.append((df_intents[0].value_counts().keys().tolist())[0])
@@ -134,9 +138,8 @@ for filename in list_files(dir):
 
             line = re.sub(r'[^\w\s]', '', line)
             line = re.sub(r"\d+", "", line)
-            # print(line)
+            
             if len(line) != 0:
-                file_loc.append(filename)
                 try:
                     type(int(line)) != int
 
@@ -156,9 +159,6 @@ for filename in list_files(dir):
         pred_token_ids = map(lambda tids: tids +[0]*(max_seq_len-len(tids)),pred_token_ids)
         pred_token_ids = np.array(list(pred_token_ids))
 
-            #################################################################
-        #                 Taking predictions from model                 #
-        #################################################################
 
         predictions = new_model.predict(pred_token_ids).argmax(axis=-1)
 
@@ -193,9 +193,8 @@ for filename in list_files(dir):
 
             line = re.sub(r'[^\w\s]', '', line)
             line = re.sub(r"\d+", "", line)
-            # print(line)
+            
             if len(line) != 0:
-                file_loc.append(filename)
                 try:
                     type(int(line)) != int
 
@@ -214,10 +213,6 @@ for filename in list_files(dir):
 
         pred_token_ids = map(lambda tids: tids +[0]*(max_seq_len-len(tids)),pred_token_ids)
         pred_token_ids = np.array(list(pred_token_ids))
-
-            #################################################################
-        #                 Taking predictions from model                 #
-        #################################################################
 
         predictions = new_model.predict(pred_token_ids).argmax(axis=-1)
 

@@ -33,7 +33,7 @@ intent=[]
 file_names=[]
 file_name=[]
 
-dir="/home/lohith/Desktop/EY Hackathon/EY_GDS_Project/data_to_preprocess"
+dir="/home/lohith/Desktop/EY Hackathon/EY_GDS_Project/Training Data"
 def list_files(dir):
     r = []
     for root, dirs, files in os.walk(dir):
@@ -46,7 +46,7 @@ for i in list_files(dir):
 # print(file_location)
 
 for filename in file_names:
-    # print(filename)
+    print(filename)
     if filename.endswith('.pdf'):
         output_string = StringIO()
         with open(filename, 'rb') as in_file:
@@ -81,7 +81,6 @@ for filename in file_names:
             intent.append(filename.split("/")[-2])
             file_name.append(filename.split("/")[-1])
 
-    # if filename.endswith('.pptx'):
     if filename.endswith('.pptx') :
         # print(filename)
         output_string = StringIO()
